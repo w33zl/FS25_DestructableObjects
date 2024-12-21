@@ -8,6 +8,33 @@
     <description>
         <en><![CDATA[ DO NOT FORGET A DESCRIPTION - CHANGE THIS! ]]></en>
     </description>
+    <l10n>
+        <text name="crushableRockXL">
+            <en>Extra Large Crushable Rock</en>
+            <de>Extra großer brechbarer Felsen</de>
+            <fr>Très grande roche broyable</fr>
+        </text>
+        <text name="crushableRockL">
+            <en>Large Crushable Rock</en>
+            <de>Großer brechbarer Fels</de>
+            <fr>Grande roche broyable</fr>
+        </text>
+        <text name="crushableRockM">
+            <en>Medium Crushable Rock</en>
+            <de>Mittelgroßer brechbarer Fels</de>
+            <fr>Moyenne roche broyable</fr>
+        </text>
+        <text name="crushableRockS">
+            <en>Small Crushable Rock</en>
+            <de>Kleiner brechbarer Felsen</de>
+            <fr>Petite roche broyable</fr>
+        </text>
+        <text name="function_destroyableObject">
+            <en>These objects can be crushed with a jackhammer.</en>
+            <de>Diese Gegenstände können mit einem Presslufthammer zerkleinert werden.</de>
+        </text>
+    </l10n>
+
     <iconFilename>icon_DestructableObjects.dds</iconFilename>
     <multiplayer supported="true" />
     <extraSourceFiles>

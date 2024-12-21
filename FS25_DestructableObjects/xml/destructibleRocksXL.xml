@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <placeable type="placeableDestructibleObject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <storeData>
-        <name>ROCKS XL</name>
+        <name>$l10n_crushableRockXL</name>
         <functions>
             <function>$l10n_function_decoration</function>
             
         </functions>
-        <image>i3d/store_destructibleRocksL.dds</image>
+        <specs>
+            <capacity>9000</capacity>
+            <fillTypes>STONE</fillTypes>
+        </specs>        
+        <image>i3d/store_destructibleRocksXL.dds</image>
         <price>130</price>
         <dailyUpkeep>0</dailyUpkeep>
         <lifetime>1000</lifetime>
