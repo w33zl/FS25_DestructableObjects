@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<modDesc descVersion="94" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/NMC-TBone/xml-schema/main/modDesc.xsd">
+    <author>w33zl</author>
+    <version>0.5.0.0-dev</version>
+    <title>
+        <en>[DEV] Destructable Objects</en>
+    </title>
+    <description>
+        <en><![CDATA[ DO NOT FORGET A DESCRIPTION - CHANGE THIS! ]]></en>
+    </description>
+    <iconFilename>icon_DestructableObjects.dds</iconFilename>
+    <multiplayer supported="true" />
+    <extraSourceFiles>
+        <sourceFile filename="lib/LogHelper.lua" />
+        <sourceFile filename="lib/ModHelper.lua" />
+        <sourceFile filename="DestructableObjects.lua" />
+    </extraSourceFiles>
+
+
+</modDesc>
