@@ -28,6 +28,7 @@
 
     <storeItems>
         <storeItem xmlFilename="xml/destructibleRocksL.xml" />
+        <storeItem xmlFilename="xml/destructibleRocksXL.xml" />
     </storeItems>
 
 </modDesc>

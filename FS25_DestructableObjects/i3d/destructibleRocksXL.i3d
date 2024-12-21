@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="destructibleRocksXL.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="9" filename="$data/maps/textures/shared/props/rocks/modularRock01_animationArray.png"/>
+    <File fileId="1" filename="$data/maps/textures/shared/props/rocks/modularRock01_diffuse.png"/>
+    <File fileId="2" filename="$data/maps/textures/shared/props/rocks/modularRock01_normal.png"/>
+    <File fileId="3" filename="$data/maps/textures/shared/props/rocks/modularRock01_specular.png"/>
+    <File fileId="10" filename="$data/maps/textures/shared/props/rocks/modularRock02_animationArray.png"/>
+    <File fileId="8" filename="$data/maps/textures/shared/props/rocks/rockDetail_normal.png"/>
+    <File fileId="7" filename="$data/maps/textures/shared/props/rocks/sandSeaweed01_diffuse.png"/>
+    <File fileId="4" filename="$data/shaders/placeableShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="modularRock01_mat1" materialId="5" customShaderId="4" customShaderVariation="rockDetail">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMossDetail" fileId="7"/>
+      <Custommap name="mNormalDetail" fileId="8"/>
+      <CustomParameter name="mossLevel" value="0.875"/>
+    </Material>
+    <Material name="modularRock01_mat1" materialId="6" customShaderId="4" customShaderVariation="vertexAnimationTexture_rockDetail">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMossDetail" fileId="7"/>
+      <Custommap name="mNormalDetail" fileId="8"/>
+      <Custommap name="animationArray" fileId="10"/>
+      <CustomParameter name="mossLevel" value="0.875"/>
+    </Material>
+    <Material name="modularRock01_mat2" materialId="7" customShaderId="4" customShaderVariation="vertexAnimationTexture_rockDetail">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMossDetail" fileId="7"/>
+      <Custommap name="mNormalDetail" fileId="8"/>
+      <Custommap name="animationArray" fileId="9"/>
+      <CustomParameter name="mossLevel" value="0.875"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="destructibleRocksXL.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="destructibleRocksL" lockedgroup="true" nodeId="13">
+      <TransformGroup name="visuals" translation="-0.657322 0 -0.951126" nodeId="14">
+        <TransformGroup name="placeabeDestructibleRocks" lockedgroup="true" nodeId="15">
+          <TransformGroup name="horizontalRock01" lockedgroup="true" translation="-4.70617 0.779189 -2.26802" rotation="0 65 0" scale="1.31087 1.31087 1.31087" lodDistance="0 45" nodeId="16">
+            <Shape name="LOD0" shapeId="1" nodeId="17" castsShadows="true" receiveShadows="true" materialIds="7"/>
+            <Shape name="LOD1" shapeId="2" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="18" castsShadows="true" receiveShadows="true" materialIds="5"/>
+          </TransformGroup>
+          <TransformGroup name="horizontalRock02" lockedgroup="true" translation="-2.79547 0.441641 -1.55514" rotation="-3.39919e-12 -63.4979 1.72939e-05" scale="1 0.936506 0.891273" lodDistance="0 45" nodeId="19">
+            <Shape name="LOD0" shapeId="3" nodeId="20" castsShadows="true" receiveShadows="true" materialIds="6"/>
+            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="21" castsShadows="true" receiveShadows="true" materialIds="5"/>
+          </TransformGroup>
+          <TransformGroup name="horizontalRock02" lockedgroup="true" translation="-5.19991 0.302074 0.301188" rotation="180 10 180" scale="1 0.766106 0.90625" lodDistance="0 45" nodeId="22">
+            <Shape name="LOD0" shapeId="3" nodeId="23" castsShadows="true" receiveShadows="true" materialIds="6"/>
+            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="24" castsShadows="true" receiveShadows="true" materialIds="5"/>
+          </TransformGroup>
+          <TransformGroup name="horizontalRock02b" lockedgroup="true" translation="6.87032 0.434759 3.65018" rotation="4.71824e-06 -25.1757 -2.0449e-06" scale="0.7 0.895853 0.6342" lodDistance="0 45" nodeId="36">
+            <Shape name="LOD0" shapeId="3" nodeId="37" castsShadows="true" receiveShadows="true" materialIds="6"/>
+            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38" castsShadows="true" receiveShadows="true" materialIds="5"/>
+          </TransformGroup>
+          <TransformGroup name="horizontalRock02c" lockedgroup="true" translation="6.47625 0.40484 3.09473" rotation="-180 25 -180" scale="0.9 0.877964 0.789439" lodDistance="0 45" nodeId="39">
+            <Shape name="LOD0" shapeId="3" nodeId="40" castsShadows="true" receiveShadows="true" materialIds="6"/>
+            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="41" castsShadows="true" receiveShadows="true" materialIds="5"/>
+          </TransformGroup>
+          <TransformGroup name="horizontalRock02d" lockedgroup="true" translation="5.55033 0.887496 2.88064" rotation="-180 24.7558 -180" scale="1.10548 1.60327 1.22872" lodDistance="0 45" nodeId="42">
+            <Shape name="LOD0" shapeId="3" nodeId="43" castsShadows="true" receiveShadows="true" materialIds="6"/>
+            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="44" castsShadows="true" receiveShadows="true" materialIds="5"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="areas" nodeId="28">
+        <TransformGroup name="clearAreaStart" translation="-12.5 0 -12.5" nodeId="29">
+          <TransformGroup name="clearAreaWidth" translation="25 0 0" nodeId="30"/>
+          <TransformGroup name="clearAreaHeight" translation="0 0 25" nodeId="31"/>
+        </TransformGroup>
+        <TransformGroup name="levelAreaStart" translation="-10 0 -10" nodeId="32">
+          <TransformGroup name="levelAreaWidth" translation="20 0 0" nodeId="33"/>
+          <TransformGroup name="levelAreaHeight" translation="0 0 20" nodeId="34"/>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="13">
+      <Attribute name="onFinalize" type="scriptCallback" value="PlaceableExtension.recursiveOnFinalize"/>
+    </UserAttribute>
+    <UserAttribute nodeId="15">
+      <Attribute name="destructibleType" type="string" value="ROCK"/>
+      <Attribute name="destructionVolume" type="float" value="130"/>
+      <Attribute name="dropAmount" type="float" value="1300"/>
+      <Attribute name="dropFillTypeName" type="string" value="STONE"/>
+      <Attribute name="groupId" type="integer" value="-1"/>
+      <Attribute name="onFinalize" type="scriptCallback" value="DestructibleMapObjectSystem.onCreateGroup"/>
+    </UserAttribute>
+    <UserAttribute nodeId="18">
+      <Attribute name="noTireTracks" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="21">
+      <Attribute name="noTireTracks" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="24">
+      <Attribute name="noTireTracks" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="38">
+      <Attribute name="noTireTracks" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="41">
+      <Attribute name="noTireTracks" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="44">
+      <Attribute name="noTireTracks" type="boolean" value="true"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>
