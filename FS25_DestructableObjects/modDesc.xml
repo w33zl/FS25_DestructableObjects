@@ -26,4 +26,8 @@
         </type>
     </placeableTypes>
 
+    <storeItems>
+        <storeItem xmlFilename="xml/destructibleRocksL.xml" />
+    </storeItems>
+
 </modDesc>
