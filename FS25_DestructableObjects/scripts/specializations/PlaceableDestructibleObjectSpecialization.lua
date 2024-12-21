@@ -175,59 +175,7 @@ function PlaceableDestructibleObject:onLoad(savegame)
 
 	spec.nodeId = nodeId
 
-	-- if isLoadingFromSavegame or not isConstructionPreview then
-	-- 	PlaceableDestructibleObject.registerPlaceableAsDestructibleObejects(self)
-	-- end
-
-	-- Log:var("spec" , spec)
-	-- Log:var("spec2" , spec2)
-	-- Log:var("spec3" , spec3)
-
-	-- Log:var("PlaceableDestructibleObject.SPEC_NAME" , PlaceableDestructibleObject.SPEC_NAME)
-	-- Log:var("PlaceableDestructibleObject.SPEC_NAME2" , PlaceableDestructibleObject.SPEC_NAME2)
-
-	-- Log:table("self", self, 1)
-	-- Log:table("PlaceableDestructibleObject", PlaceableDestructibleObject, 1)
-
-
-	-- Log:table("xmlFile", xmlFile, 2)
-
-	-- Log:var("PlaceableDestructibleObject.BASE_PATH", PlaceableDestructibleObject.BASE_PATH)
-	-- Log:var("nodeId", nodeId)
 	
-
-	-- -- Log:debug("PlaceableDestructibleObject:onLoad")
-    -- -- Log:var("isLoadedFromSavegame", self.isLoadedFromSavegame)
-    -- -- Log:var("currentSavegameId", self.currentSavegameId)
-
-	-- local spec = self[PlaceableDestructibleObject.SPEC_NAME]
-
-	-- spec.PlaceableDestructibleObjects = spec.PlaceableDestructibleObjects or {}
-
-    -- --TODO: read actual values from XML
-	-- self.xmlFile:iterate("placeable.PlaceableDestructibleObjects.PlaceableDestructibleObject", function (_, key)
-	-- 	local PlaceableDestructibleObjectFilename = self.xmlFile:getValue(key .. "#filename", nil)
-
-    --     local childPlaceable = {
-    --         filename = PlaceableDestructibleObjectFilename,
-    --     }
-
-    --     childPlaceable.positionOffset = self.xmlFile:getVector(key .. "#positionOffset", {
-    --         0,
-    --         0,
-    --         0,
-    --     }, 3)
-
-	-- -- 	local text = self.xmlFile:getValue(key .. "#text", nil)
-
-	-- -- 	if text ~= nil then
-	-- -- 		text = g_i18n:convertText(text, self.customEnvironment)
-
-	-- -- 		hotspot:setName(text)
-	-- -- 	end
-
-	-- 	table.insert(spec.PlaceableDestructibleObjects, childPlaceable)
-	-- end)
 end
 
 function PlaceableDestructibleObject:onDelete()
@@ -269,31 +217,5 @@ function PlaceableDestructibleObject.removeGroup(nodeId)
 	return true
 end
 
--- function PlaceableDestructibleObject:onDelete()
---     Log:debug("Cleanup started")
--- 	local spec = self[PlaceableDestructibleObject.SPEC_NAME]
 
---     -- self.loadingPlaceable
---     --:delete()
-
---     -- for i = 1, #spec.PlaceableDestructibleObjects do
---     --     local childPlaceable = spec.PlaceableDestructibleObjects[i]
-
---     --     if childPlaceable.loadingPlaceable ~= nil then
---     --         -- childPlaceable.loadingPlaceable:delete()
---     --         Log:debug("Marking placeable for deletion")
---     --         g_currentMission:addPlaceableToDelete(childPlaceable.loadingPlaceable)
---     --     end
---     -- end
-
-    
-
---     spec.PlaceableDestructibleObjects = nil
-
---     -- self.spec_PlaceableDestructibleObject = nil
-
--- 	g_messageCenter:unsubscribeAll(self)
-
---     Log:debug("Cleanup completed")
--- end
 
