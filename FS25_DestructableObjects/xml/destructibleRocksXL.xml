@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="placeableDestructibleObject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <storeData>
+        <name>ROCKS XL</name>
+        <functions>
+            <function>$l10n_function_decoration</function>
+            
+        </functions>
+        <image>i3d/store_destructibleRocksL.dds</image>
+        <price>130</price>
+        <dailyUpkeep>0</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <species>PLACEABLE</species>
+        <category>decoration</category>
+        <brush>
+            <type>placeable</type>
+            <category>decoration</category>
+            <tab>decoration</tab>
+        </brush>
+        <canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+        
+    </storeData>
+
+    <base>
+        <filename>i3d/destructibleRocksXL.i3d</filename>
+        <canBeRenamed>true</canBeRenamed>
+    </base>
+
+    <placement useRandomYRotation="false" useManualYRotation="true" >
+        <!-- <testAreas>
+            <testArea startNode="testAreaStart01" endNode="testAreaEnd01" />
+        </testAreas>
+        <sounds>
+            <place template="medImp" pitchScale="1.6"/>
+        </sounds> -->
+    </placement>
+
+    <clearAreas>
+        <clearArea startNode="clearAreaStart" widthNode="clearAreaWidth" heightNode="clearAreaHeight"/>
+    </clearAreas>
+
+    <!-- <leveling requireLeveling="true" maxSmoothDistance="1" maxSlope="75" maxEdgeAngle="30"></leveling> -->
+    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="75">
+        <levelAreas>
+            <levelArea startNode="levelAreaStart" widthNode="levelAreaWidth" heightNode="levelAreaHeight"/>
+        </levelAreas>
+
+        <!-- <paintAreas>
+            <paintArea startNode="paintAreaStart01" widthNode="paintAreaWidth01" heightNode="paintAreaHeight01" groundType="asphalt"/>
+        </paintAreas> -->
+    </leveling>
+
+    <destructibleObjects node="0>0|0"></destructibleObjects>
+
+    <animatedObjects />
+
+    <i3dMappings>
+        <i3dMapping id="clearAreaStart" node="0>1|0" />
+        <i3dMapping id="clearAreaWidth" node="0>1|0|0" />
+        <i3dMapping id="clearAreaHeight" node="0>1|0|1" />
+        <i3dMapping id="levelAreaStart" node="0>1|1" />
+        <i3dMapping id="levelAreaWidth" node="0>1|1|0" />
+        <i3dMapping id="levelAreaHeight" node="0>1|1|1" />
+    </i3dMappings>
+</placeable>
