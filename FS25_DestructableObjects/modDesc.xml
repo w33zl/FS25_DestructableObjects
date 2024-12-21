@@ -6,7 +6,21 @@
         <en>[DEV] Destructable Objects</en>
     </title>
     <description>
-        <en><![CDATA[ DO NOT FORGET A DESCRIPTION - CHANGE THIS! ]]></en>
+        <en><![CDATA[
+Placeable destructible objects to be placed anywhere on your map, broken into pieces at your will. They work just as the default crushable rocks on the base game maps.
+
+Crushable Rocks L
+Output: ROCKS
+Capacity: 5200L
+Price: $130
+
+Crushable Rocks XL
+Output: ROCKS
+Capacity: 7800L
+Price: $130
+
+Use any jackhammer capable of crushing rocks on the base game maps to destroy these objects.
+]]></en>
     </description>
     <l10n>
         <text name="crushableRockXL">
