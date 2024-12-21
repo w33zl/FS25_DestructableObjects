@@ -16,5 +16,14 @@
         <sourceFile filename="DestructableObjects.lua" />
     </extraSourceFiles>
 
+    <placeableSpecializations>
+        <specialization name="placeableDestructibleObject" className="PlaceableDestructibleObject" filename="scripts/specializations/PlaceableDestructibleObjectSpecialization.lua" />
+    </placeableSpecializations>
+
+    <placeableTypes>
+		<type name="placeableDestructibleObject" parent="simplePlaceable" filename="$dataS/scripts/placeables/Placeable.lua">
+            <specialization name="placeableDestructibleObject" />
+        </type>
+    </placeableTypes>
 
 </modDesc>
