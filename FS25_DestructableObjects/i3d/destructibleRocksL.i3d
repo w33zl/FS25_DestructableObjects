@@ -18,7 +18,7 @@
 
 
   <Materials>
-    <Material name="modularRock01_mat1" materialId="5" customShaderId="4" customShaderVariation="rockDetail">
+    <Material name="modularRock01_mat1" materialId="63" customShaderId="4" customShaderVariation="rockDetail">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <Glossmap fileId="3"/>
@@ -26,7 +26,7 @@
       <Custommap name="mNormalDetail" fileId="8"/>
       <CustomParameter name="mossLevel" value="0.875"/>
     </Material>
-    <Material name="modularRock01_mat1" materialId="6" customShaderId="4" customShaderVariation="vertexAnimationTexture_rockDetail">
+    <Material name="modularRock01_mat1" materialId="64" customShaderId="4" customShaderVariation="vertexAnimationTexture_rockDetail">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <Glossmap fileId="3"/>
@@ -35,7 +35,7 @@
       <Custommap name="animationArray" fileId="10"/>
       <CustomParameter name="mossLevel" value="0.875"/>
     </Material>
-    <Material name="modularRock01_mat2" materialId="7" customShaderId="4" customShaderVariation="vertexAnimationTexture_rockDetail">
+    <Material name="modularRock01_mat2" materialId="65" customShaderId="4" customShaderVariation="vertexAnimationTexture_rockDetail">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <Glossmap fileId="3"/>
@@ -44,6 +44,8 @@
       <Custommap name="animationArray" fileId="9"/>
       <CustomParameter name="mossLevel" value="0.875"/>
     </Material>
+    <Material name="UnnamedMaterial" materialId="96" diffuseColor="1 1 1 1">
+    </Material>
   </Materials>
 
 
@@ -51,45 +53,51 @@
   </Shapes>
 
   <Scene>
-    <TransformGroup name="destructibleRocksL" lockedgroup="true" nodeId="13">
-      <TransformGroup name="visuals" nodeId="14">
-        <TransformGroup name="placeabeDestructibleRocks" lockedgroup="true" nodeId="15">
-          <TransformGroup name="horizontalRock01" lockedgroup="true" translation="-4.70617 0.779189 -2.26802" rotation="0 65 0" scale="1.31087 1.31087 1.31087" lodDistance="0 45" nodeId="16">
-            <Shape name="LOD0" shapeId="1" nodeId="17" castsShadows="true" receiveShadows="true" materialIds="7"/>
-            <Shape name="LOD1" shapeId="2" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="18" castsShadows="true" receiveShadows="true" materialIds="5"/>
+    <TransformGroup name="destructibleRocksL" lockedgroup="true" nodeId="71">
+      <TransformGroup name="visuals" translation="0 -0.0618285 0" nodeId="72">
+        <TransformGroup name="placeabeDestructibleRocks" lockedgroup="true" nodeId="73">
+          <TransformGroup name="horizontalRock01" lockedgroup="true" translation="-4.70617 0.779189 -2.26802" rotation="0 65 0" scale="1.31087 1.31087 1.31087" lodDistance="0 45" nodeId="74">
+            <Shape name="LOD0" shapeId="1" nodeId="75" castsShadows="true" receiveShadows="true" materialIds="65"/>
+            <Shape name="LOD1" shapeId="2" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="76" castsShadows="true" receiveShadows="true" materialIds="63"/>
           </TransformGroup>
-          <TransformGroup name="horizontalRock02" lockedgroup="true" translation="1.0059 0.441642 5.73919" rotation="-1.54023e-12 -10 1.72939e-05" lodDistance="0 45" nodeId="19">
-            <Shape name="LOD0" shapeId="3" nodeId="20" castsShadows="true" receiveShadows="true" materialIds="6"/>
-            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="21" castsShadows="true" receiveShadows="true" materialIds="5"/>
+          <TransformGroup name="horizontalRock02" lockedgroup="true" translation="1.0059 0.441642 5.73919" rotation="-1.54023e-12 -10 1.72939e-05" lodDistance="0 45" nodeId="77">
+            <Shape name="LOD0" shapeId="3" nodeId="78" castsShadows="true" receiveShadows="true" materialIds="64"/>
+            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="79" castsShadows="true" receiveShadows="true" materialIds="63"/>
           </TransformGroup>
-          <TransformGroup name="horizontalRock02" lockedgroup="true" translation="4.03603 0.474472 -4.73053" rotation="180 10 180" lodDistance="0 45" nodeId="22">
-            <Shape name="LOD0" shapeId="3" nodeId="23" castsShadows="true" receiveShadows="true" materialIds="6"/>
-            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="24" castsShadows="true" receiveShadows="true" materialIds="5"/>
+          <TransformGroup name="horizontalRock02" lockedgroup="true" translation="4.03603 0.474472 -4.73053" rotation="180 10 180" lodDistance="0 45" nodeId="80">
+            <Shape name="LOD0" shapeId="3" nodeId="81" castsShadows="true" receiveShadows="true" materialIds="64"/>
+            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="82" castsShadows="true" receiveShadows="true" materialIds="63"/>
           </TransformGroup>
-          <TransformGroup name="horizontalRock02" lockedgroup="true" translation="6.52017 0.40484 3.00054" rotation="-180 25 -180" lodDistance="0 45" nodeId="25">
-            <Shape name="LOD0" shapeId="3" nodeId="26" castsShadows="true" receiveShadows="true" materialIds="6"/>
-            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="27" castsShadows="true" receiveShadows="true" materialIds="5"/>
+          <TransformGroup name="horizontalRock02" lockedgroup="true" translation="6.52017 0.40484 3.00054" rotation="-180 25 -180" scale="1.2 1.4 1.2" lodDistance="0 45" nodeId="83">
+            <Shape name="LOD0" shapeId="3" nodeId="84" castsShadows="true" receiveShadows="true" materialIds="64"/>
+            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="85" castsShadows="true" receiveShadows="true" materialIds="63"/>
           </TransformGroup>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="areas" nodeId="28">
-        <TransformGroup name="clearAreaStart" translation="-12.5 0 -12.5" nodeId="29">
-          <TransformGroup name="clearAreaWidth" translation="25 0 0" nodeId="30"/>
-          <TransformGroup name="clearAreaHeight" translation="0 0 25" nodeId="31"/>
+      <TransformGroup name="areas" nodeId="86">
+        <TransformGroup name="clearAreaStart" translation="-12.5 0 -12.5" nodeId="87">
+          <TransformGroup name="clearAreaWidth" translation="25 0 0" nodeId="88"/>
+          <TransformGroup name="clearAreaHeight" translation="0 0 25" nodeId="89"/>
         </TransformGroup>
-        <TransformGroup name="levelAreaStart" translation="-10 0 -10" nodeId="32">
-          <TransformGroup name="levelAreaWidth" translation="20 0 0" nodeId="33"/>
-          <TransformGroup name="levelAreaHeight" translation="0 0 20" nodeId="34"/>
+        <TransformGroup name="levelAreaStart" translation="-10 0 -10" nodeId="90">
+          <TransformGroup name="levelAreaWidth" translation="20 0 0" nodeId="91"/>
+          <TransformGroup name="levelAreaHeight" translation="0 0 20" nodeId="92"/>
+        </TransformGroup>
+        <TransformGroup name="levelAreas" nodeId="97">
+          <Shape name="levelArea" translation="0 0 5.43133" scale="3.91965 3.91965 3.91965" shapeId="5" nodeId="95" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="96"/>
+          <Shape name="levelArea" translation="5.30114 0 -4.74096" scale="3.91965 3.91965 3.91965" shapeId="5" nodeId="98" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="96"/>
+          <Shape name="levelArea" translation="7.38287 0 3.26466" rotation="0 -21.6434 0" scale="5.66464 3.91965 3.91965" shapeId="5" nodeId="99" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="96"/>
+          <Shape name="levelArea" translation="-4.07666 0 -1.55611" scale="5.31376 3.91965 7.43732" shapeId="5" nodeId="100" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="96"/>
         </TransformGroup>
       </TransformGroup>
     </TransformGroup>
   </Scene>
 
   <UserAttributes>
-    <UserAttribute nodeId="13">
+    <UserAttribute nodeId="71">
       <Attribute name="onFinalize" type="scriptCallback" value="PlaceableExtension.recursiveOnFinalize"/>
     </UserAttribute>
-    <UserAttribute nodeId="15">
+    <UserAttribute nodeId="73">
       <Attribute name="destructibleType" type="string" value="ROCK"/>
       <Attribute name="destructionVolume" type="float" value="130"/>
       <Attribute name="dropAmount" type="float" value="1300"/>
@@ -97,16 +105,16 @@
       <Attribute name="groupId" type="integer" value="-1"/>
       <Attribute name="onFinalize" type="scriptCallback" value="DestructibleMapObjectSystem.onCreateGroup"/>
     </UserAttribute>
-    <UserAttribute nodeId="18">
+    <UserAttribute nodeId="76">
       <Attribute name="noTireTracks" type="boolean" value="true"/>
     </UserAttribute>
-    <UserAttribute nodeId="21">
+    <UserAttribute nodeId="79">
       <Attribute name="noTireTracks" type="boolean" value="true"/>
     </UserAttribute>
-    <UserAttribute nodeId="24">
+    <UserAttribute nodeId="82">
       <Attribute name="noTireTracks" type="boolean" value="true"/>
     </UserAttribute>
-    <UserAttribute nodeId="27">
+    <UserAttribute nodeId="85">
       <Attribute name="noTireTracks" type="boolean" value="true"/>
     </UserAttribute>
   </UserAttributes>
