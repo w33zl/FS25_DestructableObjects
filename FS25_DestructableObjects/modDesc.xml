@@ -101,8 +101,8 @@ Utilisez n'importe quel marteau-piqueur capable d'écraser des rochers sur les c
     </placeableTypes>
 
     <storeItems>
-        <storeItem xmlFilename="xml/destructibleRocksL.xml" />
-        <storeItem xmlFilename="xml/destructibleRocksXL.xml" />
+        <storeItem xmlFilename="xml/destructibleRocksL.xml"/>
+        <storeItem xmlFilename="xml/destructibleRocksXL.xml"/>
     </storeItems>
 
 </modDesc>

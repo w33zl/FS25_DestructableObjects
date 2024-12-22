@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="placeableDestructibleObject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <storeData>
+        <name>$l10n_crushableRockL</name>
+        <functions>
+            <function>$l10n_function_decoration</function>
+        </functions>
+        <specs>
+            <capacity>5200</capacity>
+            <fillTypes>STONE</fillTypes>
+        </specs>        
+        <image>i3d/store_destructibleRocksL.dds</image>
+        <price>1</price><!-- price per liter: 0.05*0.4* -->
+        <dailyUpkeep>0</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <species>PLACEABLE</species>
+        <category>decoration</category>
+        <brush>
+            <type>placeable</type>
+            <category>decoration</category>
+            <tab>decoration</tab>
+        </brush>
+        <canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+        
+    </storeData>
+
+    <base>
+        <filename>i3d/destructibleRocksL.i3d</filename>
+        <canBeRenamed>false</canBeRenamed>
+    </base>
+
+    <placement useRandomYRotation="false" useManualYRotation="true" >
+    </placement>
+
+    <clearAreas>
+        <clearArea startNode="clearAreaStart01" widthNode="clearAreaWidth01" heightNode="clearAreaHeight01" />
+        <clearArea startNode="clearAreaStart02" widthNode="clearAreaWidth02" heightNode="clearAreaHeight02" />
+        <clearArea startNode="clearAreaStart03" widthNode="clearAreaWidth03" heightNode="clearAreaHeight03" />
+        <clearArea startNode="clearAreaStart04" widthNode="clearAreaWidth04" heightNode="clearAreaHeight04" />
+        <clearArea startNode="clearAreaStart05" widthNode="clearAreaWidth05" heightNode="clearAreaHeight05" />
+        <clearArea startNode="clearAreaStart06" widthNode="clearAreaWidth06" heightNode="clearAreaHeight06" />
+        <clearArea startNode="clearAreaStart07" widthNode="clearAreaWidth07" heightNode="clearAreaHeight07" />
+        <clearArea startNode="clearAreaStart08" widthNode="clearAreaWidth08" heightNode="clearAreaHeight08" />
+        <clearArea startNode="clearAreaStart09" widthNode="clearAreaWidth09" heightNode="clearAreaHeight09" />
+    </clearAreas>
+
+    <leveling requireLeveling="false" maxSmoothDistance="10" maxSlope="25" maxEdgeAngle="45">
+        <levelAreas>
+            <levelArea startNode="levelAreaStart01" widthNode="levelAreaWidth01" heightNode="levelAreaHeight01" />
+            <levelArea startNode="levelAreaStart02" widthNode="levelAreaWidth02" heightNode="levelAreaHeight02" />
+            <levelArea startNode="levelAreaStart03" widthNode="levelAreaWidth03" heightNode="levelAreaHeight03" />
+            <levelArea startNode="levelAreaStart04" widthNode="levelAreaWidth04" heightNode="levelAreaHeight04" />
+            <levelArea startNode="levelAreaStart05" widthNode="levelAreaWidth05" heightNode="levelAreaHeight05" />
+            <levelArea startNode="levelAreaStart06" widthNode="levelAreaWidth06" heightNode="levelAreaHeight06" />
+            <levelArea startNode="levelAreaStart07" widthNode="levelAreaWidth07" heightNode="levelAreaHeight07" />
+            <levelArea startNode="levelAreaStart08" widthNode="levelAreaWidth08" heightNode="levelAreaHeight08" />
+            <levelArea startNode="levelAreaStart09" widthNode="levelAreaWidth09" heightNode="levelAreaHeight09" />
+
+        </levelAreas>
+
+        <paintAreas>
+            <paintArea startNode="clearAreaStart01" widthNode="clearAreaWidth01" heightNode="clearAreaHeight01" groundType="dirt" />
+            <paintArea startNode="clearAreaStart02" widthNode="clearAreaWidth02" heightNode="clearAreaHeight02" groundType="dirt" />
+            <paintArea startNode="clearAreaStart03" widthNode="clearAreaWidth03" heightNode="clearAreaHeight03" groundType="dirt" />
+            <paintArea startNode="clearAreaStart04" widthNode="clearAreaWidth04" heightNode="clearAreaHeight04" groundType="dirt" />
+            <paintArea startNode="clearAreaStart05" widthNode="clearAreaWidth05" heightNode="clearAreaHeight05" groundType="dirt" />
+            <paintArea startNode="clearAreaStart06" widthNode="clearAreaWidth06" heightNode="clearAreaHeight06" groundType="dirt" />
+            <paintArea startNode="clearAreaStart07" widthNode="clearAreaWidth07" heightNode="clearAreaHeight07" groundType="dirt" />
+            <paintArea startNode="clearAreaStart08" widthNode="clearAreaWidth08" heightNode="clearAreaHeight08" groundType="dirt" />
+            <paintArea startNode="clearAreaStart09" widthNode="clearAreaWidth09" heightNode="clearAreaHeight09" groundType="dirt" />            
+        </paintAreas>        
+    </leveling>
+
+    <destructibleObjects node="placeabeDestructibleRocks"></destructibleObjects>
+
+    <indoorAreas>
+        
+    </indoorAreas>
+<!-- 
+    <ai>
+        
+    </ai> -->
+
+    <animatedObjects>
+    </animatedObjects>
+
+    <i3dMappings>
+        <i3dMapping id="placeabeDestructibleRocks" node="0>0|0" />
+
+<i3dMapping id="clearAreaStart01" node="0>1|0|0" />
+<i3dMapping id="clearAreaWidth01" node="0>1|0|0|0" />
+<i3dMapping id="clearAreaHeight01" node="0>1|0|0|1" />
+<i3dMapping id="clearAreaStart02" node="0>1|0|1" />
+<i3dMapping id="clearAreaWidth02" node="0>1|0|1|0" />
+<i3dMapping id="clearAreaHeight02" node="0>1|0|1|1" />
+<i3dMapping id="clearAreaStart03" node="0>1|0|2" />
+<i3dMapping id="clearAreaWidth03" node="0>1|0|2|0" />
+<i3dMapping id="clearAreaHeight03" node="0>1|0|2|1" />
+<i3dMapping id="clearAreaStart04" node="0>1|0|3" />
+<i3dMapping id="clearAreaWidth04" node="0>1|0|3|0" />
+<i3dMapping id="clearAreaHeight04" node="0>1|0|3|1" />
+<i3dMapping id="clearAreaStart05" node="0>1|0|4" />
+<i3dMapping id="clearAreaWidth05" node="0>1|0|4|0" />
+<i3dMapping id="clearAreaHeight05" node="0>1|0|4|1" />
+<i3dMapping id="clearAreaStart06" node="0>1|0|5" />
+<i3dMapping id="clearAreaWidth06" node="0>1|0|5|0" />
+<i3dMapping id="clearAreaHeight06" node="0>1|0|5|1" />
+<i3dMapping id="clearAreaStart07" node="0>1|0|6" />
+<i3dMapping id="clearAreaWidth07" node="0>1|0|6|0" />
+<i3dMapping id="clearAreaHeight07" node="0>1|0|6|1" />
+<i3dMapping id="clearAreaStart08" node="0>1|0|7" />
+<i3dMapping id="clearAreaWidth08" node="0>1|0|7|0" />
+<i3dMapping id="clearAreaHeight08" node="0>1|0|7|1" />
+<i3dMapping id="clearAreaStart09" node="0>1|0|8" />
+<i3dMapping id="clearAreaWidth09" node="0>1|0|8|0" />
+<i3dMapping id="clearAreaHeight09" node="0>1|0|8|1" />
+
+
+<i3dMapping id="levelAreaStart01" node="0>1|1|9" />
+<i3dMapping id="levelAreaWidth01" node="0>1|1|9|0" />
+<i3dMapping id="levelAreaHeight01" node="0>1|1|9|1" />
+<i3dMapping id="levelAreaStart02" node="0>1|1|10" />
+<i3dMapping id="levelAreaWidth02" node="0>1|1|10|0" />
+<i3dMapping id="levelAreaHeight02" node="0>1|1|10|1" />
+<i3dMapping id="levelAreaStart03" node="0>1|1|11" />
+<i3dMapping id="levelAreaWidth03" node="0>1|1|11|0" />
+<i3dMapping id="levelAreaHeight03" node="0>1|1|11|1" />
+<i3dMapping id="levelAreaStart04" node="0>1|1|12" />
+<i3dMapping id="levelAreaWidth04" node="0>1|1|12|0" />
+<i3dMapping id="levelAreaHeight04" node="0>1|1|12|1" />
+<i3dMapping id="levelAreaStart05" node="0>1|1|13" />
+<i3dMapping id="levelAreaWidth05" node="0>1|1|13|0" />
+<i3dMapping id="levelAreaHeight05" node="0>1|1|13|1" />
+<i3dMapping id="levelAreaStart06" node="0>1|1|14" />
+<i3dMapping id="levelAreaWidth06" node="0>1|1|14|0" />
+<i3dMapping id="levelAreaHeight06" node="0>1|1|14|1" />
+<i3dMapping id="levelAreaStart07" node="0>1|1|15" />
+<i3dMapping id="levelAreaWidth07" node="0>1|1|15|0" />
+<i3dMapping id="levelAreaHeight07" node="0>1|1|15|1" />
+<i3dMapping id="levelAreaStart08" node="0>1|1|16" />
+<i3dMapping id="levelAreaWidth08" node="0>1|1|16|0" />
+<i3dMapping id="levelAreaHeight08" node="0>1|1|16|1" />
+<i3dMapping id="levelAreaStart09" node="0>1|1|17" />
+<i3dMapping id="levelAreaWidth09" node="0>1|1|17|0" />
+<i3dMapping id="levelAreaHeight09" node="0>1|1|17|1" />
+
+
+
+
+    </i3dMappings>
+</placeable>
