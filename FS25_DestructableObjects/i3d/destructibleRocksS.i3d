@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="destructibleRocksS.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="9" filename="$data/maps/textures/shared/props/rocks/modularRock01_animationArray.png"/>
+    <File fileId="1" filename="$data/maps/textures/shared/props/rocks/modularRock01_diffuse.png"/>
+    <File fileId="2" filename="$data/maps/textures/shared/props/rocks/modularRock01_normal.png"/>
+    <File fileId="3" filename="$data/maps/textures/shared/props/rocks/modularRock01_specular.png"/>
+    <File fileId="8" filename="$data/maps/textures/shared/props/rocks/rockDetail_normal.png"/>
+    <File fileId="7" filename="$data/maps/textures/shared/props/rocks/sandSeaweed01_diffuse.png"/>
+    <File fileId="4" filename="$data/shaders/placeableShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="modularRock01_mat1" materialId="43" customShaderId="4" customShaderVariation="rockDetail">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMossDetail" fileId="7"/>
+      <Custommap name="mNormalDetail" fileId="8"/>
+      <CustomParameter name="mossLevel" value="0.875"/>
+    </Material>
+    <Material name="modularRock01_mat2" materialId="44" customShaderId="4" customShaderVariation="vertexAnimationTexture_rockDetail">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMossDetail" fileId="7"/>
+      <Custommap name="mNormalDetail" fileId="8"/>
+      <Custommap name="animationArray" fileId="9"/>
+      <CustomParameter name="mossLevel" value="0.875"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="destructibleRocksS.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="destructibleRocksL" lockedgroup="true" nodeId="48">
+      <TransformGroup name="visuals" translation="0 -0.0866189 0" nodeId="49">
+        <TransformGroup name="placeabeDestructibleRocks" lockedgroup="true" nodeId="50">
+          <TransformGroup name="horizontalRock01" lockedgroup="true" translation="-1.57836 0.779189 -0.809499" rotation="0 65 0" scale="1.31087 1.31087 1.31087" lodDistance="0 45" nodeId="51">
+            <Shape name="LOD0" shapeId="1" nodeId="52" castsShadows="true" receiveShadows="true" materialIds="44"/>
+            <Shape name="LOD1" shapeId="2" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="53" castsShadows="true" receiveShadows="true" materialIds="43"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="areas" nodeId="54">
+        <TransformGroup name="clearAreaStart" translation="-12.5 0 -12.5" nodeId="55">
+          <TransformGroup name="clearAreaWidth" translation="25 0 0" nodeId="56"/>
+          <TransformGroup name="clearAreaHeight" translation="0 0 25" nodeId="57"/>
+        </TransformGroup>
+        <TransformGroup name="levelAreaStart" translation="-10 0 -10" nodeId="58">
+          <TransformGroup name="levelAreaWidth" translation="20 0 0" nodeId="59"/>
+          <TransformGroup name="levelAreaHeight" translation="0 0 20" nodeId="60"/>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="48">
+      <Attribute name="onFinalize" type="scriptCallback" value="PlaceableExtension.recursiveOnFinalize"/>
+    </UserAttribute>
+    <UserAttribute nodeId="50">
+      <Attribute name="destructibleType" type="string" value="ROCK"/>
+      <Attribute name="destructionVolume" type="float" value="160"/>
+      <Attribute name="dropAmount" type="float" value="1600"/>
+      <Attribute name="dropFillTypeName" type="string" value="STONE"/>
+      <Attribute name="groupId" type="integer" value="-1"/>
+      <Attribute name="onFinalize" type="scriptCallback" value="DestructibleMapObjectSystem.onCreateGroup"/>
+    </UserAttribute>
+    <UserAttribute nodeId="53">
+      <Attribute name="noTireTracks" type="boolean" value="true"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>
