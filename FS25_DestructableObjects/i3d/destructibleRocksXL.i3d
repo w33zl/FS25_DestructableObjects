@@ -54,7 +54,7 @@
     <TransformGroup name="destructibleRocksL" lockedgroup="true" nodeId="13">
       <TransformGroup name="visuals" translation="-0.657322 0 -0.951126" nodeId="14">
         <TransformGroup name="placeabeDestructibleRocks" lockedgroup="true" nodeId="15">
-          <TransformGroup name="horizontalRock01" lockedgroup="true" translation="-4.70617 0.779189 -2.26802" rotation="0 65 0" scale="1.31087 1.31087 1.31087" lodDistance="0 45" nodeId="16">
+          <TransformGroup name="horizontalRock01" lockedgroup="true" translation="-3.8601 0.779 -1.79999" rotation="0 65 0" scale="1.31087 1.31087 1.31087" lodDistance="0 45" nodeId="16">
             <Shape name="LOD0" shapeId="1" nodeId="17" castsShadows="true" receiveShadows="true" materialIds="7"/>
             <Shape name="LOD1" shapeId="2" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="18" castsShadows="true" receiveShadows="true" materialIds="5"/>
           </TransformGroup>
@@ -66,28 +66,28 @@
             <Shape name="LOD0" shapeId="3" nodeId="23" castsShadows="true" receiveShadows="true" materialIds="6"/>
             <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="24" castsShadows="true" receiveShadows="true" materialIds="5"/>
           </TransformGroup>
-          <TransformGroup name="horizontalRock02b" lockedgroup="true" translation="6.87032 0.434759 3.65018" rotation="4.71824e-06 -25.1757 -2.0449e-06" scale="0.7 0.895853 0.6342" lodDistance="0 45" nodeId="36">
-            <Shape name="LOD0" shapeId="3" nodeId="37" castsShadows="true" receiveShadows="true" materialIds="6"/>
-            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38" castsShadows="true" receiveShadows="true" materialIds="5"/>
+          <TransformGroup name="horizontalRock02b" lockedgroup="true" translation="6.87032 0.434759 3.65018" rotation="4.71824e-06 -25.1757 -2.0449e-06" scale="0.7 0.895853 0.6342" lodDistance="0 45" nodeId="25">
+            <Shape name="LOD0" shapeId="3" nodeId="26" castsShadows="true" receiveShadows="true" materialIds="6"/>
+            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="27" castsShadows="true" receiveShadows="true" materialIds="5"/>
           </TransformGroup>
-          <TransformGroup name="horizontalRock02c" lockedgroup="true" translation="6.47625 0.40484 3.09473" rotation="-180 25 -180" scale="0.9 0.877964 0.789439" lodDistance="0 45" nodeId="39">
-            <Shape name="LOD0" shapeId="3" nodeId="40" castsShadows="true" receiveShadows="true" materialIds="6"/>
-            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="41" castsShadows="true" receiveShadows="true" materialIds="5"/>
+          <TransformGroup name="horizontalRock02c" lockedgroup="true" translation="6.47625 0.40484 3.09473" rotation="-180 25 -180" scale="0.9 0.877964 0.789439" lodDistance="0 45" nodeId="28">
+            <Shape name="LOD0" shapeId="3" nodeId="29" castsShadows="true" receiveShadows="true" materialIds="6"/>
+            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="30" castsShadows="true" receiveShadows="true" materialIds="5"/>
           </TransformGroup>
-          <TransformGroup name="horizontalRock02d" lockedgroup="true" translation="5.55033 0.887496 2.88064" rotation="-180 24.7558 -180" scale="1.10548 1.60327 1.22872" lodDistance="0 45" nodeId="42">
-            <Shape name="LOD0" shapeId="3" nodeId="43" castsShadows="true" receiveShadows="true" materialIds="6"/>
-            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="44" castsShadows="true" receiveShadows="true" materialIds="5"/>
+          <TransformGroup name="horizontalRock02d" lockedgroup="true" translation="5.55033 0.887496 2.88064" rotation="-180 24.7558 -180" scale="1.10548 1.60327 1.22872" lodDistance="0 45" nodeId="31">
+            <Shape name="LOD0" shapeId="3" nodeId="32" castsShadows="true" receiveShadows="true" materialIds="6"/>
+            <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="33" castsShadows="true" receiveShadows="true" materialIds="5"/>
           </TransformGroup>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="areas" nodeId="28">
-        <TransformGroup name="clearAreaStart" translation="-12.5 0 -12.5" nodeId="29">
-          <TransformGroup name="clearAreaWidth" translation="25 0 0" nodeId="30"/>
-          <TransformGroup name="clearAreaHeight" translation="0 0 25" nodeId="31"/>
+      <TransformGroup name="areas" nodeId="34">
+        <TransformGroup name="clearAreaStart" translation="-12.5 0 -12.5" nodeId="35">
+          <TransformGroup name="clearAreaWidth" translation="25 0 0" nodeId="36"/>
+          <TransformGroup name="clearAreaHeight" translation="0 0 25" nodeId="37"/>
         </TransformGroup>
-        <TransformGroup name="levelAreaStart" translation="-10 0 -10" nodeId="32">
-          <TransformGroup name="levelAreaWidth" translation="20 0 0" nodeId="33"/>
-          <TransformGroup name="levelAreaHeight" translation="0 0 20" nodeId="34"/>
+        <TransformGroup name="levelAreaStart" translation="-10 0 -10" nodeId="38">
+          <TransformGroup name="levelAreaWidth" translation="20 0 0" nodeId="39"/>
+          <TransformGroup name="levelAreaHeight" translation="0 0 20" nodeId="40"/>
         </TransformGroup>
       </TransformGroup>
     </TransformGroup>
@@ -114,13 +114,13 @@
     <UserAttribute nodeId="24">
       <Attribute name="noTireTracks" type="boolean" value="true"/>
     </UserAttribute>
-    <UserAttribute nodeId="38">
+    <UserAttribute nodeId="27">
       <Attribute name="noTireTracks" type="boolean" value="true"/>
     </UserAttribute>
-    <UserAttribute nodeId="41">
+    <UserAttribute nodeId="30">
       <Attribute name="noTireTracks" type="boolean" value="true"/>
     </UserAttribute>
-    <UserAttribute nodeId="44">
+    <UserAttribute nodeId="33">
       <Attribute name="noTireTracks" type="boolean" value="true"/>
     </UserAttribute>
   </UserAttributes>
