@@ -57,19 +57,19 @@
       <TransformGroup name="visuals" translation="0 -0.0618285 0" nodeId="16">
         <TransformGroup name="placeabeDestructibleRocks" lockedgroup="true" nodeId="17">
           <TransformGroup name="horizontalRock01" lockedgroup="true" translation="-4.70617 0.779189 -2.26802" rotation="0 65 0" scale="1.31087 1.31087 1.31087" lodDistance="0 45" nodeId="18">
-            <Shape name="LOD0" shapeId="1" nodeId="19" castsShadows="true" receiveShadows="true" materialIds="7"/>
+            <Shape name="LOD0" shapeId="1" clipDistance="200" nodeId="19" castsShadows="true" receiveShadows="true" materialIds="7"/>
             <Shape name="LOD1" shapeId="2" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="20" castsShadows="true" receiveShadows="true" materialIds="5"/>
           </TransformGroup>
           <TransformGroup name="horizontalRock02" lockedgroup="true" translation="1.0059 0.441642 5.73919" rotation="-1.54023e-12 -10 1.72939e-05" lodDistance="0 45" nodeId="21">
-            <Shape name="LOD0" shapeId="3" nodeId="22" castsShadows="true" receiveShadows="true" materialIds="6"/>
+            <Shape name="LOD0" shapeId="3" clipDistance="200" nodeId="22" castsShadows="true" receiveShadows="true" materialIds="6"/>
             <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="23" castsShadows="true" receiveShadows="true" materialIds="5"/>
           </TransformGroup>
           <TransformGroup name="horizontalRock02" lockedgroup="true" translation="4.03603 0.474472 -4.73053" rotation="180 10 180" lodDistance="0 45" nodeId="24">
-            <Shape name="LOD0" shapeId="3" nodeId="25" castsShadows="true" receiveShadows="true" materialIds="6"/>
+            <Shape name="LOD0" shapeId="3" clipDistance="200" nodeId="25" castsShadows="true" receiveShadows="true" materialIds="6"/>
             <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="26" castsShadows="true" receiveShadows="true" materialIds="5"/>
           </TransformGroup>
           <TransformGroup name="horizontalRock02" lockedgroup="true" translation="6.52017 0.40484 3.00054" rotation="-180 25 -180" scale="1.2 1.4 1.2" lodDistance="0 45" nodeId="27">
-            <Shape name="LOD0" shapeId="3" nodeId="28" castsShadows="true" receiveShadows="true" materialIds="6"/>
+            <Shape name="LOD0" shapeId="3" clipDistance="200" nodeId="28" castsShadows="true" receiveShadows="true" materialIds="6"/>
             <Shape name="LOD1" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="29" castsShadows="true" receiveShadows="true" materialIds="5"/>
           </TransformGroup>
         </TransformGroup>
