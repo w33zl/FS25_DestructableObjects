@@ -10,7 +10,7 @@
             <fillTypes>STONE</fillTypes>
         </specs>        
         <image>i3d/store_destructibleRocksL.dds</image>
-        <price>110</price><!-- price per liter: 0.05*0.4* -->
+        <price>1</price><!-- price per liter: 0.05*0.4* -->
         <dailyUpkeep>0</dailyUpkeep>
         <lifetime>1000</lifetime>
         <rotation>0</rotation>
