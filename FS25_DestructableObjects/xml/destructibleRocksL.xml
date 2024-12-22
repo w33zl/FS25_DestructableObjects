@@ -80,94 +80,68 @@
         
     </indoorAreas>
 
-    <ai>
-    </ai>
+    <ai />
 
-    <animatedObjects>
-    </animatedObjects>
+    <animatedObjects />
 
     <i3dMappings>
-        <i3dMapping id="clearAreaStart" node="0>1|0" />
-        <i3dMapping id="clearAreaWidth" node="0>1|0|0" />
-        <i3dMapping id="clearAreaHeight" node="0>1|0|1" />
-        <i3dMapping id="levelAreaStart" node="0>1|1" />
-        <i3dMapping id="levelAreaWidth" node="0>1|1|0" />
-        <i3dMapping id="levelAreaHeight" node="0>1|1|1" />
+
         <i3dMapping id="placeabeDestructibleRocks" node="0>0|0" />
-<i3dMapping id="levelAreaStart01" node="0>1|2|0" />
-<i3dMapping id="levelAreaWidth01" node="0>1|2|0|0" />
-<i3dMapping id="levelAreaHeight01" node="0>1|2|0|1" />
-<i3dMapping id="levelAreaStart02" node="0>1|2|1" />
-<i3dMapping id="levelAreaWidth02" node="0>1|2|1|0" />
-<i3dMapping id="levelAreaHeight02" node="0>1|2|1|1" />
-<i3dMapping id="levelAreaStart03" node="0>1|2|2" />
-<i3dMapping id="levelAreaWidth03" node="0>1|2|2|0" />
-<i3dMapping id="levelAreaHeight03" node="0>1|2|2|1" />
-<i3dMapping id="levelAreaStart04" node="0>1|2|3" />
-<i3dMapping id="levelAreaWidth04" node="0>1|2|3|0" />
-<i3dMapping id="levelAreaHeight04" node="0>1|2|3|1" />
 
-<i3dMapping id="planeStart" node="0>1|5" />
-<i3dMapping id="planeWidth" node="0>1|5|0" />
-<i3dMapping id="planeHeight" node="0>1|5|1" />
+        <i3dMapping id="clearAreaStart01" node="0>1|0|0" />
+        <i3dMapping id="clearAreaWidth01" node="0>1|0|0|0" />
+        <i3dMapping id="clearAreaHeight01" node="0>1|0|0|1" />
+        <i3dMapping id="clearAreaStart02" node="0>1|0|1" />
+        <i3dMapping id="clearAreaWidth02" node="0>1|0|1|0" />
+        <i3dMapping id="clearAreaHeight02" node="0>1|0|1|1" />
+        <i3dMapping id="clearAreaStart03" node="0>1|0|2" />
+        <i3dMapping id="clearAreaWidth03" node="0>1|0|2|0" />
+        <i3dMapping id="clearAreaHeight03" node="0>1|0|2|1" />
+        <i3dMapping id="clearAreaStart04" node="0>1|0|3" />
+        <i3dMapping id="clearAreaWidth04" node="0>1|0|3|0" />
+        <i3dMapping id="clearAreaHeight04" node="0>1|0|3|1" />
+        <i3dMapping id="clearAreaStart05" node="0>1|0|4" />
+        <i3dMapping id="clearAreaWidth05" node="0>1|0|4|0" />
+        <i3dMapping id="clearAreaHeight05" node="0>1|0|4|1" />
+        <i3dMapping id="clearAreaStart06" node="0>1|0|5" />
+        <i3dMapping id="clearAreaWidth06" node="0>1|0|5|0" />
+        <i3dMapping id="clearAreaHeight06" node="0>1|0|5|1" />
+        <i3dMapping id="clearAreaStart07" node="0>1|0|6" />
+        <i3dMapping id="clearAreaWidth07" node="0>1|0|6|0" />
+        <i3dMapping id="clearAreaHeight07" node="0>1|0|6|1" />
+        <i3dMapping id="clearAreaStart08" node="0>1|0|7" />
+        <i3dMapping id="clearAreaWidth08" node="0>1|0|7|0" />
+        <i3dMapping id="clearAreaHeight08" node="0>1|0|7|1" />
+        <i3dMapping id="clearAreaStart09" node="0>1|0|8" />
+        <i3dMapping id="clearAreaWidth09" node="0>1|0|8|0" />
+        <i3dMapping id="clearAreaHeight09" node="0>1|0|8|1" />
 
-<i3dMapping id="clearAreaStart01" node="0>1|7|9" />
-<i3dMapping id="clearAreaWidth01" node="0>1|7|9|0" />
-<i3dMapping id="clearAreaHeight01" node="0>1|7|9|1" />
-<i3dMapping id="clearAreaStart02" node="0>1|7|10" />
-<i3dMapping id="clearAreaWidth02" node="0>1|7|10|0" />
-<i3dMapping id="clearAreaHeight02" node="0>1|7|10|1" />
-<i3dMapping id="clearAreaStart03" node="0>1|7|11" />
-<i3dMapping id="clearAreaWidth03" node="0>1|7|11|0" />
-<i3dMapping id="clearAreaHeight03" node="0>1|7|11|1" />
-<i3dMapping id="clearAreaStart04" node="0>1|7|12" />
-<i3dMapping id="clearAreaWidth04" node="0>1|7|12|0" />
-<i3dMapping id="clearAreaHeight04" node="0>1|7|12|1" />
-<i3dMapping id="clearAreaStart05" node="0>1|7|13" />
-<i3dMapping id="clearAreaWidth05" node="0>1|7|13|0" />
-<i3dMapping id="clearAreaHeight05" node="0>1|7|13|1" />
-<i3dMapping id="clearAreaStart06" node="0>1|7|14" />
-<i3dMapping id="clearAreaWidth06" node="0>1|7|14|0" />
-<i3dMapping id="clearAreaHeight06" node="0>1|7|14|1" />
-<i3dMapping id="clearAreaStart07" node="0>1|7|15" />
-<i3dMapping id="clearAreaWidth07" node="0>1|7|15|0" />
-<i3dMapping id="clearAreaHeight07" node="0>1|7|15|1" />
-<i3dMapping id="clearAreaStart08" node="0>1|7|16" />
-<i3dMapping id="clearAreaWidth08" node="0>1|7|16|0" />
-<i3dMapping id="clearAreaHeight08" node="0>1|7|16|1" />
-<i3dMapping id="clearAreaStart09" node="0>1|7|17" />
-<i3dMapping id="clearAreaWidth09" node="0>1|7|17|0" />
-<i3dMapping id="clearAreaHeight09" node="0>1|7|17|1" />
-
-<i3dMapping id="levelAreaStart01" node="0>1|4|9" />
-<i3dMapping id="levelAreaWidth01" node="0>1|4|9|0" />
-<i3dMapping id="levelAreaHeight01" node="0>1|4|9|1" />
-<i3dMapping id="levelAreaStart02" node="0>1|4|10" />
-<i3dMapping id="levelAreaWidth02" node="0>1|4|10|0" />
-<i3dMapping id="levelAreaHeight02" node="0>1|4|10|1" />
-<i3dMapping id="levelAreaStart03" node="0>1|4|11" />
-<i3dMapping id="levelAreaWidth03" node="0>1|4|11|0" />
-<i3dMapping id="levelAreaHeight03" node="0>1|4|11|1" />
-<i3dMapping id="levelAreaStart04" node="0>1|4|12" />
-<i3dMapping id="levelAreaWidth04" node="0>1|4|12|0" />
-<i3dMapping id="levelAreaHeight04" node="0>1|4|12|1" />
-<i3dMapping id="levelAreaStart05" node="0>1|4|13" />
-<i3dMapping id="levelAreaWidth05" node="0>1|4|13|0" />
-<i3dMapping id="levelAreaHeight05" node="0>1|4|13|1" />
-<i3dMapping id="levelAreaStart06" node="0>1|4|14" />
-<i3dMapping id="levelAreaWidth06" node="0>1|4|14|0" />
-<i3dMapping id="levelAreaHeight06" node="0>1|4|14|1" />
-<i3dMapping id="levelAreaStart07" node="0>1|4|15" />
-<i3dMapping id="levelAreaWidth07" node="0>1|4|15|0" />
-<i3dMapping id="levelAreaHeight07" node="0>1|4|15|1" />
-<i3dMapping id="levelAreaStart08" node="0>1|4|16" />
-<i3dMapping id="levelAreaWidth08" node="0>1|4|16|0" />
-<i3dMapping id="levelAreaHeight08" node="0>1|4|16|1" />
-<i3dMapping id="levelAreaStart09" node="0>1|4|17" />
-<i3dMapping id="levelAreaWidth09" node="0>1|4|17|0" />
-<i3dMapping id="levelAreaHeight09" node="0>1|4|17|1" />
-
-
-
+        <i3dMapping id="levelAreaStart01" node="0>1|1|9" />
+        <i3dMapping id="levelAreaWidth01" node="0>1|1|9|0" />
+        <i3dMapping id="levelAreaHeight01" node="0>1|1|9|1" />
+        <i3dMapping id="levelAreaStart02" node="0>1|1|10" />
+        <i3dMapping id="levelAreaWidth02" node="0>1|1|10|0" />
+        <i3dMapping id="levelAreaHeight02" node="0>1|1|10|1" />
+        <i3dMapping id="levelAreaStart03" node="0>1|1|11" />
+        <i3dMapping id="levelAreaWidth03" node="0>1|1|11|0" />
+        <i3dMapping id="levelAreaHeight03" node="0>1|1|11|1" />
+        <i3dMapping id="levelAreaStart04" node="0>1|1|12" />
+        <i3dMapping id="levelAreaWidth04" node="0>1|1|12|0" />
+        <i3dMapping id="levelAreaHeight04" node="0>1|1|12|1" />
+        <i3dMapping id="levelAreaStart05" node="0>1|1|13" />
+        <i3dMapping id="levelAreaWidth05" node="0>1|1|13|0" />
+        <i3dMapping id="levelAreaHeight05" node="0>1|1|13|1" />
+        <i3dMapping id="levelAreaStart06" node="0>1|1|14" />
+        <i3dMapping id="levelAreaWidth06" node="0>1|1|14|0" />
+        <i3dMapping id="levelAreaHeight06" node="0>1|1|14|1" />
+        <i3dMapping id="levelAreaStart07" node="0>1|1|15" />
+        <i3dMapping id="levelAreaWidth07" node="0>1|1|15|0" />
+        <i3dMapping id="levelAreaHeight07" node="0>1|1|15|1" />
+        <i3dMapping id="levelAreaStart08" node="0>1|1|16" />
+        <i3dMapping id="levelAreaWidth08" node="0>1|1|16|0" />
+        <i3dMapping id="levelAreaHeight08" node="0>1|1|16|1" />
+        <i3dMapping id="levelAreaStart09" node="0>1|1|17" />
+        <i3dMapping id="levelAreaWidth09" node="0>1|1|17|0" />
+        <i3dMapping id="levelAreaHeight09" node="0>1|1|17|1" />
     </i3dMappings>
 </placeable>

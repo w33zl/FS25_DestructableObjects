@@ -75,135 +75,137 @@
         </TransformGroup>
       </TransformGroup>
       <TransformGroup name="areas" nodeId="30">
-        <TransformGroup name="levelAreasOld" nodeId="37">
-          <TransformGroup name="levelAreaStart01" translation="-1.95982 0 3.4715" nodeId="38">
-            <TransformGroup name="levelAreaWidth01" translation="3.91965 0 0" nodeId="39"/>
-            <TransformGroup name="levelAreaHeight01" translation="0 0 3.91965" nodeId="40"/>
+        <TransformGroup name="clearAreas" nodeId="54">
+          <TransformGroup name="clearAreaStart01" translation="-3.27817 0 7.41837" nodeId="55">
+            <TransformGroup name="clearAreaWidth01" translation="1.13753 0 -4.84649" nodeId="56"/>
+            <TransformGroup name="clearAreaHeight01" translation="7.48052 0 1.75576" nodeId="57"/>
           </TransformGroup>
-          <TransformGroup name="levelAreaStart02" translation="-1.95982 0 3.4715" nodeId="41">
-            <TransformGroup name="levelAreaWidth02" translation="3.91965 0 0" nodeId="42"/>
-            <TransformGroup name="levelAreaHeight02" translation="0 0 3.91965" nodeId="43"/>
+          <TransformGroup name="clearAreaStart02" translation="1.46096 0.00931855 4.3917" nodeId="58">
+            <TransformGroup name="clearAreaWidth02" translation="1.13087 -0.0186371 -4.7581" nodeId="59"/>
+            <TransformGroup name="clearAreaHeight02" translation="6.58294 0 1.56458" nodeId="60"/>
           </TransformGroup>
-          <TransformGroup name="levelAreaStart03" translation="-1.95982 0 3.4715" nodeId="44">
-            <TransformGroup name="levelAreaWidth03" translation="3.91965 0 0" nodeId="45"/>
-            <TransformGroup name="levelAreaHeight03" translation="0 0 3.91965" nodeId="46"/>
+          <TransformGroup name="clearAreaStart03" translation="6.80287 0 6.76527" nodeId="61">
+            <TransformGroup name="clearAreaWidth03" translation="3.22427 0 -5.6121" nodeId="62"/>
+            <TransformGroup name="clearAreaHeight03" translation="2.11886 0 1.21733" nodeId="63"/>
           </TransformGroup>
-          <TransformGroup name="levelAreaStart04" translation="-1.95982 0 3.4715" nodeId="47">
-            <TransformGroup name="levelAreaWidth04" translation="3.91965 0 0" nodeId="48"/>
-            <TransformGroup name="levelAreaHeight04" translation="0 0 3.91965" nodeId="49"/>
+          <TransformGroup name="clearAreaStart04" translation="0.209354 -1.22714e-13 -3.44916" nodeId="64">
+            <TransformGroup name="clearAreaWidth04" translation="0.531364 1.67913e-14 -3.85484" nodeId="65"/>
+            <TransformGroup name="clearAreaHeight04" translation="7.02023 2.21842e-13 0.967692" nodeId="66"/>
           </TransformGroup>
-        </TransformGroup>
-        <TransformGroup name="clearAreas" visibility="false" nodeId="50">
-          <Shape name="clearArea" translation="1.03086 0 5.87301" rotation="0 76.7911 0" scale="4.9782 1 7.68381" shapeId="5" nodeId="51" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="clearArea" translation="5.31786 7.28279e-10 2.79494" rotation="-0.918579 76.6287 -0.944169" scale="4.89068 1 6.76631" shapeId="5" nodeId="52" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="clearArea" translation="9.47444 0 4.56789" rotation="0 60.1217 0" scale="6.47237 1 2.44366" shapeId="5" nodeId="53" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="clearArea" translation="3.98515 -3.39766e-15 -4.89273" rotation="1.16182e-18 82.1516 1.81057e-12" scale="3.89129 1 7.08661" shapeId="5" nodeId="54" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="clearArea" translation="6.54473 0 -4.16209" rotation="0 73.5123 0" scale="5.46191 1 2.44366" shapeId="5" nodeId="55" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="clearArea" translation="-6.17971 5.13234e-07 0.313054" rotation="180 30.2066 180" scale="10.1647 1 2.85871" shapeId="5" nodeId="56" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="clearArea" translation="-3.67817 0 -4.26893" rotation="0 73.5123 0" scale="6.70807 1 2.44366" shapeId="5" nodeId="57" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="clearArea" translation="-3.70067 2.938e-07 -2.01105" rotation="-180 61.8908 -180" scale="8.63729 1 4.26044" shapeId="5" nodeId="58" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="clearArea" translation="-1.26612 0 -2.30382" rotation="0 73.5123 0" scale="3.91613 1 2.44366" shapeId="5" nodeId="59" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-        </TransformGroup>
-        <TransformGroup name="clearAreas" nodeId="64">
-          <TransformGroup name="clearAreaStart01" translation="-3.27817 0 7.41837" nodeId="65">
-            <TransformGroup name="clearAreaWidth01" translation="1.13753 0 -4.84649" nodeId="66"/>
-            <TransformGroup name="clearAreaHeight01" translation="7.48052 0 1.75576" nodeId="67"/>
+          <TransformGroup name="clearAreaStart05" translation="4.59807 0 -1.8902" nodeId="67">
+            <TransformGroup name="clearAreaWidth05" translation="1.55014 0 -5.23732" nodeId="68"/>
+            <TransformGroup name="clearAreaHeight05" translation="2.34318 0 0.693534" nodeId="69"/>
           </TransformGroup>
-          <TransformGroup name="clearAreaStart02" translation="1.46096 0.00931855 4.3917" nodeId="68">
-            <TransformGroup name="clearAreaWidth02" translation="1.13087 -0.0186371 -4.7581" nodeId="69"/>
-            <TransformGroup name="clearAreaHeight02" translation="6.58294 0 1.56458" nodeId="70"/>
+          <TransformGroup name="clearAreaStart06" translation="-2.50659 9.59306e-07 4.10536" nodeId="70">
+            <TransformGroup name="clearAreaWidth06" translation="-8.7845 -7.67966e-07 -5.11406" nodeId="71"/>
+            <TransformGroup name="clearAreaHeight06" translation="1.43827 -1.24179e-07 -2.47055" nodeId="72"/>
           </TransformGroup>
-          <TransformGroup name="clearAreaStart03" translation="6.80287 0 6.76527" nodeId="71">
-            <TransformGroup name="clearAreaWidth03" translation="3.22427 0 -5.6121" nodeId="72"/>
-            <TransformGroup name="clearAreaHeight03" translation="2.11886 0 1.21733" nodeId="73"/>
+          <TransformGroup name="clearAreaStart07" translation="-5.80167 0 -1.39958" nodeId="73">
+            <TransformGroup name="clearAreaWidth07" translation="1.90381 0 -6.43224" nodeId="74"/>
+            <TransformGroup name="clearAreaHeight07" translation="2.34318 0 0.693534" nodeId="75"/>
           </TransformGroup>
-          <TransformGroup name="clearAreaStart04" translation="0.209354 -1.22714e-13 -3.44916" nodeId="74">
-            <TransformGroup name="clearAreaWidth04" translation="0.531364 1.67913e-14 -3.85484" nodeId="75"/>
-            <TransformGroup name="clearAreaHeight04" translation="7.02023 2.21842e-13 0.967692" nodeId="76"/>
+          <TransformGroup name="clearAreaStart08" translation="-3.54489 9.39515e-08 2.80188" nodeId="76">
+            <TransformGroup name="clearAreaWidth08" translation="-4.06949 3.55766e-07 -7.61853" nodeId="77"/>
+            <TransformGroup name="clearAreaHeight08" translation="3.75793 4.39312e-08 -2.00732" nodeId="78"/>
           </TransformGroup>
-          <TransformGroup name="clearAreaStart05" translation="4.59807 0 -1.8902" nodeId="77">
-            <TransformGroup name="clearAreaWidth05" translation="1.55014 0 -5.23732" nodeId="78"/>
-            <TransformGroup name="clearAreaHeight05" translation="2.34318 0 0.693534" nodeId="79"/>
-          </TransformGroup>
-          <TransformGroup name="clearAreaStart06" translation="-2.50659 9.59306e-07 4.10536" nodeId="80">
-            <TransformGroup name="clearAreaWidth06" translation="-8.7845 -7.67966e-07 -5.11406" nodeId="81"/>
-            <TransformGroup name="clearAreaHeight06" translation="1.43827 -1.24179e-07 -2.47055" nodeId="82"/>
-          </TransformGroup>
-          <TransformGroup name="clearAreaStart07" translation="-5.80167 0 -1.39958" nodeId="83">
-            <TransformGroup name="clearAreaWidth07" translation="1.90381 0 -6.43224" nodeId="84"/>
-            <TransformGroup name="clearAreaHeight07" translation="2.34318 0 0.693534" nodeId="85"/>
-          </TransformGroup>
-          <TransformGroup name="clearAreaStart08" translation="-3.54489 9.39515e-08 2.80188" nodeId="86">
-            <TransformGroup name="clearAreaWidth08" translation="-4.06949 3.55766e-07 -7.61853" nodeId="87"/>
-            <TransformGroup name="clearAreaHeight08" translation="3.75793 4.39312e-08 -2.00732" nodeId="88"/>
-          </TransformGroup>
-          <TransformGroup name="clearAreaStart09" translation="-2.99343 0 -0.773036" nodeId="89">
-            <TransformGroup name="clearAreaWidth09" translation="1.11143 0 -3.7551" nodeId="90"/>
-            <TransformGroup name="clearAreaHeight09" translation="2.34318 0 0.693534" nodeId="91"/>
+          <TransformGroup name="clearAreaStart09" translation="-2.99343 0 -0.773036" nodeId="79">
+            <TransformGroup name="clearAreaWidth09" translation="1.11143 0 -3.7551" nodeId="80"/>
+            <TransformGroup name="clearAreaHeight09" translation="2.34318 0 0.693534" nodeId="81"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="levelAreasMaybe" visibility="false" nodeId="131">
-          <Shape name="clearArea" translation="2.35714 0 0.222332" rotation="0 73.4542 0" scale="18.3725 1 9.09414" shapeId="5" nodeId="132" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="clearArea" translation="0.320506 -0.00204796 1.05488" rotation="-0.601344 69.3132 -0.613061" scale="7.29667 1 23.2558" shapeId="5" nodeId="133" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="clearArea" translation="-4.24023 0 -4.63766" rotation="0 73.5123 0" scale="6.70807 1 6.17476" shapeId="5" nodeId="138" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <TransformGroup name="clearAreaStart01" translation="-4.61773 0 7.73327" nodeId="141">
-            <TransformGroup name="clearAreaWidth01" translation="5.23216 0 -17.6117" nodeId="142"/>
-            <TransformGroup name="clearAreaHeight01" translation="8.71757 0 2.58985" nodeId="143"/>
+        <TransformGroup name="levelAreas" nodeId="95">
+          <Shape name="levelArea" translation="1.03086 0 5.87301" rotation="0 76.7911 0" scale="4.9782 1 7.68381" shapeId="5" visibility="false" nodeId="96" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="levelArea" translation="5.31786 7.28279e-10 2.79494" rotation="-0.918579 76.6287 -0.944169" scale="4.89068 1 6.76631" shapeId="5" visibility="false" nodeId="97" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="levelArea" translation="9.47444 0 4.56789" rotation="0 60.1217 0" scale="6.47237 1 2.44366" shapeId="5" visibility="false" nodeId="98" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="levelArea" translation="3.98515 -3.39766e-15 -4.89273" rotation="1.16182e-18 82.1516 1.81057e-12" scale="3.89129 1 7.08661" shapeId="5" visibility="false" nodeId="99" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="levelArea" translation="6.54473 0 -4.16209" rotation="0 73.5123 0" scale="5.46191 1 2.44366" shapeId="5" visibility="false" nodeId="100" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="levelArea" translation="-6.17971 5.13234e-07 0.313054" rotation="180 30.2066 180" scale="10.1647 1 2.85871" shapeId="5" visibility="false" nodeId="101" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="levelArea" translation="-3.67817 0 -4.26893" rotation="0 73.5123 0" scale="6.70807 1 2.44366" shapeId="5" visibility="false" nodeId="102" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="levelArea" translation="-3.70067 2.938e-07 -2.01105" rotation="-180 61.8908 -180" scale="8.63729 1 4.26044" shapeId="5" visibility="false" nodeId="103" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="levelArea" translation="-1.26612 0 -2.30382" rotation="0 73.5123 0" scale="3.91613 1 2.44366" shapeId="5" visibility="false" nodeId="104" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <TransformGroup name="levelAreaStart01" translation="-3.27817 0 7.41837" nodeId="105">
+            <TransformGroup name="levelAreaWidth01" translation="1.13753 0 -4.84649" nodeId="106"/>
+            <TransformGroup name="levelAreaHeight01" translation="7.48052 0 1.75576" nodeId="107"/>
           </TransformGroup>
-          <TransformGroup name="clearAreaStart02" translation="-11.8465 0.00609861 0.360564" nodeId="144">
-            <TransformGroup name="clearAreaWidth02" translation="2.57746 -0.0275797 -6.82622" nodeId="145"/>
-            <TransformGroup name="clearAreaHeight02" translation="21.7565 0.0112866 8.21486" nodeId="146"/>
+          <TransformGroup name="levelAreaStart02" translation="1.46096 0.00931855 4.3917" nodeId="108">
+            <TransformGroup name="levelAreaWidth02" translation="1.13087 -0.0186371 -4.7581" nodeId="109"/>
+            <TransformGroup name="levelAreaHeight02" translation="6.58294 0 1.56458" nodeId="110"/>
           </TransformGroup>
-          <TransformGroup name="clearAreaStart03" translation="-8.15257 0 -2.29777" nodeId="147">
-            <TransformGroup name="clearAreaWidth03" translation="1.90381 0 -6.43224" nodeId="148"/>
-            <TransformGroup name="clearAreaHeight03" translation="5.92086 0 1.75246" nodeId="149"/>
+          <TransformGroup name="levelAreaStart03" translation="6.80287 0 6.76527" nodeId="111">
+            <TransformGroup name="levelAreaWidth03" translation="3.22427 0 -5.6121" nodeId="112"/>
+            <TransformGroup name="levelAreaHeight03" translation="2.11886 0 1.21733" nodeId="113"/>
+          </TransformGroup>
+          <TransformGroup name="levelAreaStart04" translation="0.209354 -1.22714e-13 -3.44916" nodeId="114">
+            <TransformGroup name="levelAreaWidth04" translation="0.531364 1.67913e-14 -3.85484" nodeId="115"/>
+            <TransformGroup name="levelAreaHeight04" translation="7.02023 2.21842e-13 0.967692" nodeId="116"/>
+          </TransformGroup>
+          <TransformGroup name="levelAreaStart05" translation="4.59807 0 -1.8902" nodeId="117">
+            <TransformGroup name="levelAreaWidth05" translation="1.55014 0 -5.23732" nodeId="118"/>
+            <TransformGroup name="levelAreaHeight05" translation="2.34318 0 0.693534" nodeId="119"/>
+          </TransformGroup>
+          <TransformGroup name="levelAreaStart06" translation="-2.50659 9.59306e-07 4.10536" nodeId="120">
+            <TransformGroup name="levelAreaWidth06" translation="-8.7845 -7.67966e-07 -5.11406" nodeId="121"/>
+            <TransformGroup name="levelAreaHeight06" translation="1.43827 -1.24179e-07 -2.47055" nodeId="122"/>
+          </TransformGroup>
+          <TransformGroup name="levelAreaStart07" translation="-5.80167 0 -1.39958" nodeId="123">
+            <TransformGroup name="levelAreaWidth07" translation="1.90381 0 -6.43224" nodeId="124"/>
+            <TransformGroup name="levelAreaHeight07" translation="2.34318 0 0.693534" nodeId="125"/>
+          </TransformGroup>
+          <TransformGroup name="levelAreaStart08" translation="-3.54489 9.39515e-08 2.80188" nodeId="126">
+            <TransformGroup name="levelAreaWidth08" translation="-4.06949 3.55766e-07 -7.61853" nodeId="127"/>
+            <TransformGroup name="levelAreaHeight08" translation="3.75793 4.39312e-08 -2.00732" nodeId="128"/>
+          </TransformGroup>
+          <TransformGroup name="levelAreaStart09" translation="-2.99343 0 -0.773036" nodeId="129">
+            <TransformGroup name="levelAreaWidth09" translation="1.11143 0 -3.7551" nodeId="130"/>
+            <TransformGroup name="levelAreaHeight09" translation="2.34318 0 0.693534" nodeId="131"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="levelAreas" nodeId="150">
-          <Shape name="levelArea" translation="1.03086 0 5.87301" rotation="0 76.7911 0" scale="4.9782 1 7.68381" shapeId="5" visibility="false" nodeId="151" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="levelArea" translation="5.31786 7.28279e-10 2.79494" rotation="-0.918579 76.6287 -0.944169" scale="4.89068 1 6.76631" shapeId="5" visibility="false" nodeId="164" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="levelArea" translation="9.47444 0 4.56789" rotation="0 60.1217 0" scale="6.47237 1 2.44366" shapeId="5" visibility="false" nodeId="166" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="levelArea" translation="3.98515 -3.39766e-15 -4.89273" rotation="1.16182e-18 82.1516 1.81057e-12" scale="3.89129 1 7.08661" shapeId="5" visibility="false" nodeId="162" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="levelArea" translation="6.54473 0 -4.16209" rotation="0 73.5123 0" scale="5.46191 1 2.44366" shapeId="5" visibility="false" nodeId="165" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="levelArea" translation="-6.17971 5.13234e-07 0.313054" rotation="180 30.2066 180" scale="10.1647 1 2.85871" shapeId="5" visibility="false" nodeId="160" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="levelArea" translation="-3.67817 0 -4.26893" rotation="0 73.5123 0" scale="6.70807 1 2.44366" shapeId="5" visibility="false" nodeId="161" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="levelArea" translation="-3.70067 2.938e-07 -2.01105" rotation="-180 61.8908 -180" scale="8.63729 1 4.26044" shapeId="5" visibility="false" nodeId="163" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <Shape name="levelArea" translation="-1.26612 0 -2.30382" rotation="0 73.5123 0" scale="3.91613 1 2.44366" shapeId="5" visibility="false" nodeId="167" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
-          <TransformGroup name="levelAreaStart01" translation="-3.27817 0 7.41837" nodeId="168">
-            <TransformGroup name="levelAreaWidth01" translation="1.13753 0 -4.84649" nodeId="169"/>
-            <TransformGroup name="levelAreaHeight01" translation="7.48052 0 1.75576" nodeId="170"/>
+      </TransformGroup>
+      <TransformGroup name="wrapper" nodeId="133">
+        <TransformGroup name="levelAreasOld" nodeId="31">
+          <TransformGroup name="levelAreaStart01" translation="-1.95982 0 3.4715" nodeId="32">
+            <TransformGroup name="levelAreaWidth01" translation="3.91965 0 0" nodeId="33"/>
+            <TransformGroup name="levelAreaHeight01" translation="0 0 3.91965" nodeId="34"/>
           </TransformGroup>
-          <TransformGroup name="levelAreaStart02" translation="1.46096 0.00931855 4.3917" nodeId="171">
-            <TransformGroup name="levelAreaWidth02" translation="1.13087 -0.0186371 -4.7581" nodeId="172"/>
-            <TransformGroup name="levelAreaHeight02" translation="6.58294 0 1.56458" nodeId="173"/>
+          <TransformGroup name="levelAreaStart02" translation="-1.95982 0 3.4715" nodeId="35">
+            <TransformGroup name="levelAreaWidth02" translation="3.91965 0 0" nodeId="36"/>
+            <TransformGroup name="levelAreaHeight02" translation="0 0 3.91965" nodeId="37"/>
           </TransformGroup>
-          <TransformGroup name="levelAreaStart03" translation="6.80287 0 6.76527" nodeId="174">
-            <TransformGroup name="levelAreaWidth03" translation="3.22427 0 -5.6121" nodeId="175"/>
-            <TransformGroup name="levelAreaHeight03" translation="2.11886 0 1.21733" nodeId="176"/>
+          <TransformGroup name="levelAreaStart03" translation="-1.95982 0 3.4715" nodeId="38">
+            <TransformGroup name="levelAreaWidth03" translation="3.91965 0 0" nodeId="39"/>
+            <TransformGroup name="levelAreaHeight03" translation="0 0 3.91965" nodeId="40"/>
           </TransformGroup>
-          <TransformGroup name="levelAreaStart04" translation="0.209354 -1.22714e-13 -3.44916" nodeId="177">
-            <TransformGroup name="levelAreaWidth04" translation="0.531364 1.67913e-14 -3.85484" nodeId="178"/>
-            <TransformGroup name="levelAreaHeight04" translation="7.02023 2.21842e-13 0.967692" nodeId="179"/>
+          <TransformGroup name="levelAreaStart04" translation="-1.95982 0 3.4715" nodeId="41">
+            <TransformGroup name="levelAreaWidth04" translation="3.91965 0 0" nodeId="42"/>
+            <TransformGroup name="levelAreaHeight04" translation="0 0 3.91965" nodeId="43"/>
           </TransformGroup>
-          <TransformGroup name="levelAreaStart05" translation="4.59807 0 -1.8902" nodeId="180">
-            <TransformGroup name="levelAreaWidth05" translation="1.55014 0 -5.23732" nodeId="181"/>
-            <TransformGroup name="levelAreaHeight05" translation="2.34318 0 0.693534" nodeId="182"/>
+        </TransformGroup>
+        <TransformGroup name="clearAreas" visibility="false" nodeId="44">
+          <Shape name="clearArea" translation="1.03086 0 5.87301" rotation="0 76.7911 0" scale="4.9782 1 7.68381" shapeId="5" nodeId="45" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="clearArea" translation="5.31786 7.28279e-10 2.79494" rotation="-0.918579 76.6287 -0.944169" scale="4.89068 1 6.76631" shapeId="5" nodeId="46" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="clearArea" translation="9.47444 0 4.56789" rotation="0 60.1217 0" scale="6.47237 1 2.44366" shapeId="5" nodeId="47" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="clearArea" translation="3.98515 -3.39766e-15 -4.89273" rotation="1.16182e-18 82.1516 1.81057e-12" scale="3.89129 1 7.08661" shapeId="5" nodeId="48" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="clearArea" translation="6.54473 0 -4.16209" rotation="0 73.5123 0" scale="5.46191 1 2.44366" shapeId="5" nodeId="49" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="clearArea" translation="-6.17971 5.13234e-07 0.313054" rotation="180 30.2066 180" scale="10.1647 1 2.85871" shapeId="5" nodeId="50" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="clearArea" translation="-3.67817 0 -4.26893" rotation="0 73.5123 0" scale="6.70807 1 2.44366" shapeId="5" nodeId="51" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="clearArea" translation="-3.70067 2.938e-07 -2.01105" rotation="-180 61.8908 -180" scale="8.63729 1 4.26044" shapeId="5" nodeId="52" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="clearArea" translation="-1.26612 0 -2.30382" rotation="0 73.5123 0" scale="3.91613 1 2.44366" shapeId="5" nodeId="53" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+        </TransformGroup>
+        <TransformGroup name="levelAreasMaybe" visibility="false" nodeId="82">
+          <Shape name="clearArea" translation="2.35714 0 0.222332" rotation="0 73.4542 0" scale="18.3725 1 9.09414" shapeId="5" nodeId="83" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="clearArea" translation="0.320506 -0.00204796 1.05488" rotation="-0.601344 69.3132 -0.613061" scale="7.29667 1 23.2558" shapeId="5" nodeId="84" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <Shape name="clearArea" translation="-4.24023 0 -4.63766" rotation="0 73.5123 0" scale="6.70807 1 6.17476" shapeId="5" nodeId="85" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="8"/>
+          <TransformGroup name="clearAreaStart01" translation="-4.61773 0 7.73327" nodeId="86">
+            <TransformGroup name="clearAreaWidth01" translation="5.23216 0 -17.6117" nodeId="87"/>
+            <TransformGroup name="clearAreaHeight01" translation="8.71757 0 2.58985" nodeId="88"/>
           </TransformGroup>
-          <TransformGroup name="levelAreaStart06" translation="-2.50659 9.59306e-07 4.10536" nodeId="183">
-            <TransformGroup name="levelAreaWidth06" translation="-8.7845 -7.67966e-07 -5.11406" nodeId="184"/>
-            <TransformGroup name="levelAreaHeight06" translation="1.43827 -1.24179e-07 -2.47055" nodeId="185"/>
+          <TransformGroup name="clearAreaStart02" translation="-11.8465 0.00609861 0.360564" nodeId="89">
+            <TransformGroup name="clearAreaWidth02" translation="2.57746 -0.0275797 -6.82622" nodeId="90"/>
+            <TransformGroup name="clearAreaHeight02" translation="21.7565 0.0112866 8.21486" nodeId="91"/>
           </TransformGroup>
-          <TransformGroup name="levelAreaStart07" translation="-5.80167 0 -1.39958" nodeId="186">
-            <TransformGroup name="levelAreaWidth07" translation="1.90381 0 -6.43224" nodeId="187"/>
-            <TransformGroup name="levelAreaHeight07" translation="2.34318 0 0.693534" nodeId="188"/>
-          </TransformGroup>
-          <TransformGroup name="levelAreaStart08" translation="-3.54489 9.39515e-08 2.80188" nodeId="189">
-            <TransformGroup name="levelAreaWidth08" translation="-4.06949 3.55766e-07 -7.61853" nodeId="190"/>
-            <TransformGroup name="levelAreaHeight08" translation="3.75793 4.39312e-08 -2.00732" nodeId="191"/>
-          </TransformGroup>
-          <TransformGroup name="levelAreaStart09" translation="-2.99343 0 -0.773036" nodeId="192">
-            <TransformGroup name="levelAreaWidth09" translation="1.11143 0 -3.7551" nodeId="193"/>
-            <TransformGroup name="levelAreaHeight09" translation="2.34318 0 0.693534" nodeId="194"/>
+          <TransformGroup name="clearAreaStart03" translation="-8.15257 0 -2.29777" nodeId="92">
+            <TransformGroup name="clearAreaWidth03" translation="1.90381 0 -6.43224" nodeId="93"/>
+            <TransformGroup name="clearAreaHeight03" translation="5.92086 0 1.75246" nodeId="94"/>
           </TransformGroup>
         </TransformGroup>
       </TransformGroup>
@@ -234,7 +236,7 @@
     <UserAttribute nodeId="29">
       <Attribute name="noTireTracks" type="boolean" value="true"/>
     </UserAttribute>
-    <UserAttribute nodeId="64">
+    <UserAttribute nodeId="54">
       <Attribute name="areaType" type="string" value="clearArea"/>
       <Attribute name="areaTypeAdditional" type="string" value="groundType=dirt"/>
     </UserAttribute>
