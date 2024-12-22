@@ -99,8 +99,8 @@
     </UserAttribute>
     <UserAttribute nodeId="15">
       <Attribute name="destructibleType" type="string" value="ROCK"/>
-      <Attribute name="destructionVolume" type="float" value="130"/>
-      <Attribute name="dropAmount" type="float" value="1300"/>
+      <Attribute name="destructionVolume" type="float" value="150"/>
+      <Attribute name="dropAmount" type="float" value="1500"/>
       <Attribute name="dropFillTypeName" type="string" value="STONE"/>
       <Attribute name="groupId" type="integer" value="-1"/>
       <Attribute name="onFinalize" type="scriptCallback" value="DestructibleMapObjectSystem.onCreateGroup"/>
