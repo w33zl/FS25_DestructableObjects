@@ -53,7 +53,7 @@
         </levelAreas>
 
         <!-- <paintAreas>
-            <paintArea startNode="paintAreaStart01" widthNode="paintAreaWidth01" heightNode="paintAreaHeight01" groundType="asphalt"/>
+            <paintArea startNode="paintAreaStart01" widthNode="paintAreaWidth01" heightNode="paintAreaHeight01" groundType="GRASS_DIRT"/>
         </paintAreas> -->
     </leveling>
 
