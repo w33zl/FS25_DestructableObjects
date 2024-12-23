@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-<i3D name="destructibleRocksXL.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<i3D name="destructibleRocksXL.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
   <Asset>
     <Export program="GIANTS Editor 64bit" version="10.0.3"/>
   </Asset>
@@ -44,6 +44,8 @@
       <Custommap name="animationArray" fileId="9"/>
       <CustomParameter name="mossLevel" value="0.875"/>
     </Material>
+    <Material name="UnnamedMaterial" materialId="44" diffuseColor="1 1 1 1">
+    </Material>
   </Materials>
 
 
@@ -52,7 +54,7 @@
 
   <Scene>
     <TransformGroup name="destructibleRocksL" lockedgroup="true" nodeId="13">
-      <TransformGroup name="visuals"  clipDistance="200" translation="-0.657322 0 -0.951126" nodeId="14">
+      <TransformGroup name="visuals" translation="-0.657322 -0.232146 -0.951126" clipDistance="200" nodeId="14">
         <TransformGroup name="placeabeDestructibleRocks" lockedgroup="true" nodeId="15">
           <TransformGroup name="horizontalRock01" lockedgroup="true" translation="-3.8601 0.779 -1.79999" rotation="0 65 0" scale="1.31087 1.31087 1.31087" lodDistance="0 45" nodeId="16">
             <Shape name="LOD0" shapeId="1" nodeId="17" castsShadows="true" receiveShadows="true" materialIds="7"/>
@@ -80,7 +82,31 @@
           </TransformGroup>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="areas" nodeId="34">
+      <TransformGroup name="areas" nodeId="70">
+        <TransformGroup name="clearAreas" nodeId="62">
+          <TransformGroup name="clearAreaStart01" translation="1.50285 0 -1.65282" nodeId="71">
+            <TransformGroup name="clearAreaWidth01" translation="8.80194 0 2.17613" nodeId="72"/>
+            <TransformGroup name="clearAreaHeight01" translation="-0.735249 0 2.97391" nodeId="73"/>
+          </TransformGroup>
+          <TransformGroup name="clearAreaStart02" translation="3.77513 0 -0.846723" nodeId="74">
+            <TransformGroup name="clearAreaWidth02" translation="5.22443 0 5.1425" nodeId="75"/>
+            <TransformGroup name="clearAreaHeight02" translation="-2.64007 0 2.68213" nodeId="76"/>
+          </TransformGroup>
+          <TransformGroup name="clearAreaStart03" translation="-5.20117 0 -6.46838" nodeId="77">
+            <TransformGroup name="clearAreaWidth03" translation="5.70798 0 2.28853" nodeId="78"/>
+            <TransformGroup name="clearAreaHeight03" translation="-2.91101 0 7.26057" nodeId="79"/>
+          </TransformGroup>
+          <TransformGroup name="clearAreaStart04" translation="-10.2783 0 -4.45821" nodeId="80">
+            <TransformGroup name="clearAreaWidth04" translation="6.92929 0 3.73023" nodeId="81"/>
+            <TransformGroup name="clearAreaHeight04" translation="-1.62836 0 3.02486" nodeId="82"/>
+          </TransformGroup>
+          <TransformGroup name="clearAreaStart05" translation="-5.88628 0 -9.28561" nodeId="83">
+            <TransformGroup name="clearAreaWidth05" translation="5.70798 0 2.28853" nodeId="84"/>
+            <TransformGroup name="clearAreaHeight05" translation="-2.14308 0 5.34522" nodeId="85"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="gameplay" visibility="false" nodeId="34">
         <TransformGroup name="clearAreaStart" translation="-12.5 0 -12.5" nodeId="35">
           <TransformGroup name="clearAreaWidth" translation="25 0 0" nodeId="36"/>
           <TransformGroup name="clearAreaHeight" translation="0 0 25" nodeId="37"/>
@@ -88,6 +114,13 @@
         <TransformGroup name="levelAreaStart" translation="-10 0 -10" nodeId="38">
           <TransformGroup name="levelAreaWidth" translation="20 0 0" nodeId="39"/>
           <TransformGroup name="levelAreaHeight" translation="0 0 20" nodeId="40"/>
+        </TransformGroup>
+        <TransformGroup name="areas" nodeId="64">
+          <Shape name="plane" translation="5.5362 0 0.922198" rotation="0 -13.887 0" scale="9.06696 3.06345 3.06345" shapeId="5" nodeId="65" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="44"/>
+          <Shape name="plane" translation="5.06731 0 3.06559" rotation="0 -44.5472 0" scale="7.33076 3.06345 3.76348" shapeId="5" nodeId="66" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="44"/>
+          <Shape name="plane" translation="-3.80269 0 -1.69384" rotation="0 -21.8476 0" scale="6.14966 5.21885 7.82239" shapeId="5" nodeId="67" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="44"/>
+          <Shape name="plane" translation="-7.62782 0 -1.08067" rotation="0 -28.2948 0" scale="7.86955 2.16092 3.43531" shapeId="5" nodeId="68" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="44"/>
+          <Shape name="plane" translation="-4.10384 0 -5.46874" rotation="0 -21.8476 0" scale="6.14966 5.21885 5.75883" shapeId="5" nodeId="69" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="44"/>
         </TransformGroup>
       </TransformGroup>
     </TransformGroup>
@@ -122,6 +155,12 @@
     </UserAttribute>
     <UserAttribute nodeId="33">
       <Attribute name="noTireTracks" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="62">
+      <Attribute name="areaType" type="string" value="clearArea"/>
+    </UserAttribute>
+    <UserAttribute nodeId="64">
+      <Attribute name="areaType" type="string" value="clearArea"/>
     </UserAttribute>
   </UserAttributes>
 
