@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 <modDesc descVersion="94" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/NMC-TBone/xml-schema/main/modDesc.xsd">
     <author>w33zl</author>
-    <version>0.5.0.0-dev</version>
+    <version>1.0.0.0</version>
     <title>
         <en>Destructable Objects</en>
         <de>Zerstörbare Objekte</de>
