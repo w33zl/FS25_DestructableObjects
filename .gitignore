@@ -2,3 +2,15 @@ deploy/output/*
 deploy/7za.exe
 deploy/releases/*
 
+.vscode/*
+deploy/*
+graphics/*
+FS25_DestructableObjects/i3d/clearAreas.i3d
+FS25_DestructableObjects/i3d/clearAreas.i3d.shapes
+FS25_DestructableObjects/i3d/dummyObject3.i3d
+FS25_DestructableObjects/i3d/dummyObject3.i3d.shapes
+language_LANGCODE.xml
+modDesc.xml.bak
+modDesc.build
+.env
+FS25_DestructableObjects/.build/*
