@@ -33,6 +33,18 @@
     </base>
 
     <placement useRandomYRotation="false" useManualYRotation="true" >
+        <testAreas>
+
+            <testArea startNode="testAreaStart01" endNode="testAreaEnd01"  />
+            <testArea startNode="testAreaStart02" endNode="testAreaEnd02"  />
+            <testArea startNode="testAreaStart03" endNode="testAreaEnd03"  />
+            <testArea startNode="testAreaStart04" endNode="testAreaEnd04"  />
+
+        </testAreas>
+        <sounds>
+            <place template="medImp" />
+        </sounds>
+
     </placement>
 
     <clearAreas>
@@ -87,6 +99,17 @@
     <i3dMappings>
 
         <i3dMapping id="placeabeDestructibleRocks" node="0>0|0" />
+
+<i3dMapping id="testAreaStart01" node="0>1|2|0" />
+<i3dMapping id="testAreaEnd01" node="0>1|2|0|0" />
+<i3dMapping id="testAreaStart02" node="0>1|2|1" />
+<i3dMapping id="testAreaEnd02" node="0>1|2|1|0" />
+<i3dMapping id="testAreaStart03" node="0>1|2|2" />
+<i3dMapping id="testAreaEnd03" node="0>1|2|2|0" />
+<i3dMapping id="testAreaStart04" node="0>1|2|3" />
+<i3dMapping id="testAreaEnd04" node="0>1|2|3|0" />
+
+
 
         <i3dMapping id="clearAreaStart01" node="0>1|0|0" />
         <i3dMapping id="clearAreaWidth01" node="0>1|0|0|0" />
