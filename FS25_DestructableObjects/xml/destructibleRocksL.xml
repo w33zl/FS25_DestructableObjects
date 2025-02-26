@@ -88,11 +88,11 @@
 
     <destructibleObjects node="placeabeDestructibleRocks"></destructibleObjects>
 
-    <indoorAreas>
-        
-    </indoorAreas>
+    <indoorAreas />
 
-    <ai />
+    <ai>
+        <updateAreas />
+    </ai>
 
     <animatedObjects />
 

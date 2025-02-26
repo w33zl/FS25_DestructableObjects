@@ -71,7 +71,9 @@
 
     <indoorAreas />
 
-    <ai />
+    <ai>
+        <updateAreas />
+    </ai>
 
     <animatedObjects />
 
