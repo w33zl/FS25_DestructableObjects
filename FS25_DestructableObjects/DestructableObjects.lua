@@ -30,3 +30,6 @@ function DestructiblePlaceableObjects:startMission()
     DestructibleMapObjectSystem.loadFromSavegameXML(g_currentMission.destructibleMapObjectSystem, g_currentMission.missionInfo.destructibleMapObjectsXMLLoad)
 end
 
+g_globalMods = g_globalMods or {}
+g_globalMods.g_destructibleObjects = g_globalMods.g_destructibleObjects or {}
+g_globalMods.g_destructibleObjects.PlaceableDestructibleObject = g_globalMods.g_destructibleObjects.PlaceableDestructibleObject or PlaceableDestructibleObject
