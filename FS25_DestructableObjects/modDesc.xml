@@ -85,8 +85,8 @@ Utilisez n'importe quel marteau-piqueur capable d'écraser des rochers sur les c
     <iconFilename>icon_DestructableObjects.dds</iconFilename>
     <multiplayer supported="true"/>
     <extraSourceFiles>
-        <sourceFile filename="lib/LogHelper.lua"/>
-        <sourceFile filename="lib/ModHelper.lua"/>
+        <sourceFile filename="scripts/modLib/LogHelper.lua"/>
+        <sourceFile filename="scripts/modLib/ModHelper.lua"/>
         <sourceFile filename="DestructableObjects.lua"/>
     </extraSourceFiles>
 
