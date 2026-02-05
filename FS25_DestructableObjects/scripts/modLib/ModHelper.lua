@@ -479,6 +479,10 @@ function Mod:loadSound(name, fileName)
     return newSound
 end
 
+function Mod:initSettings(defaultSettingsFileName)
+    
+end
+
 function Mod:new()
     local newMod = {}
 
@@ -617,6 +621,16 @@ function Mod:getIsModActive(modName, envName)
 
     return modNameCheck and envCheck
 
+end
+
+function Mod:featureToggle(feature, delegate)
+    if feature == true then
+        if delegate ~= nil and type(delegate) == "function" then
+            return delegate(self)
+        else
+            Log:error("Feature toggle delegate is not a function")
+        end
+    end
 end
 
 -- function Mod:getIsSeasonsActive()
