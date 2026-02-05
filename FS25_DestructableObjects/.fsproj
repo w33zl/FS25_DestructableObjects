@@ -28,6 +28,8 @@
     "**/modLib/MemoryProfiler.lua",
     "**/modLib/MultistateKeyHandler.lua",
     "**/modLib/StringWriter.lua",
+    "**/modLib/VehicleWorkshop.lua",
+    "**/modLib/UIHelper.lua",
     "**/*.pdn",
     "**/*.bak",
     "**/*.md",
@@ -38,7 +40,8 @@
     "**/destructibleRocksL_paint.xml",
     "**/language_LANGCODE.xml",
     "**/destructibleRocksS.*",
-    "**/destructibleRocksM.*"
+    "**/destructibleRocksM.*",
+    "**/PlaceableDestructibleMapObjectSystem.lua"
   ],
   "autoBumpModDescVersion": true,
   "name": "FS25_DestructableObjects"
