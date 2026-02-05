@@ -1,9 +1,9 @@
 --[[
-SHORT DESCRIPTION OF WHAT YOUR MOD DOES GOES HERE
+Extends the destuctable object system to support placeable destructable objects
 
 Author:     w33zl
-Version:    1.0.0
-Modified:   2024-12-07
+Version:    1.0.1
+Modified:   2026-02-05
 
 Changelog:
 
@@ -19,70 +19,20 @@ DestructiblePlaceableObjects:source("scripts/modLib/PlaceableExtension.lua")
 --TODO: is it possible to use the uniqueId from the placeable to ensure groupId always matches the correct placeable? Maybe this can prevent the "Group with id 'XX' does not exist in map" issue?
 --NOTE: or maybe we can create a derived class that isolates the placeable destuctable objects from the default destructable objects from the map? We can inherit the class and override the loading and saving methods, and hook into the jackhammer (easiest via DestructibleMapObjectSystem.getDestructibleFromNode?)
 
--- function DestructiblePlaceableObjects:beforeLoadMap()
---     local xmlFile = g_currentMission ~= nil and g_currentMission.missionInfo ~= nil and g_currentMission.missionInfo.destructibleMapObjectsXMLLoad
---     Log:var("g_currentMission.missionInfo.destructibleMapObjectsXMLLoad [beforeLoadMap]", xmlFile)
-
---     self.destructibleMapObjectsXMLLoad = xmlFile
---     g_currentMission.missionInfo.destructibleMapObjectsXMLLoad = nil
--- end
-function DestructiblePlaceableObjects:loadMap(filename)
-    local xmlFile = g_currentMission ~= nil and g_currentMission.missionInfo ~= nil and g_currentMission.missionInfo.destructibleMapObjectsXMLLoad
-    Log:var("g_currentMission.missionInfo.destructibleMapObjectsXMLLoad [loadMap]", xmlFile)
-
-    Log:trace("loadMap")
-end
-
-BaseMission.loadMapFinished = Utils.appendedFunction(BaseMission.loadMapFinished, function(baseMission, ...) 
-    local xmlFile = g_currentMission ~= nil and g_currentMission.missionInfo ~= nil and g_currentMission.missionInfo.destructibleMapObjectsXMLLoad
-    -- Log:var("g_currentMission.missionInfo.destructibleMapObjectsXMLLoad [loadMap]", xmlFile)
-    Log:trace("loadMapFinished")
-end)
-
 Mission00.loadAdditionalFilesFinished = Utils.overwrittenFunction(Mission00.loadAdditionalFilesFinished, function(self, superFunc, ...)
-    local xmlFile = g_currentMission ~= nil and g_currentMission.missionInfo ~= nil and g_currentMission.missionInfo.destructibleMapObjectsXMLLoad
-    Log:var("g_currentMission.missionInfo.destructibleMapObjectsXMLLoad [loadAdditionalFilesFinished]", xmlFile)
-    Log:trace("loadAdditionalFilesFinished")
+    --HACK: a bit of hack, but we need to defer loading of destructible objects until the placeables have been loaded, otherwise the "Group with id 'XX' does not exist in map" error will occur
 
-    self.destructibleMapObjectsXMLLoad = xmlFile
-    g_currentMission.missionInfo.destructibleMapObjectsXMLLoad = nil
+    local destructibleMapObjectsXMLFileToLoad = g_currentMission ~= nil and g_currentMission.missionInfo ~= nil and g_currentMission.missionInfo.destructibleMapObjectsXMLLoad
+    self.destructibleMapObjectsXMLLoad = destructibleMapObjectsXMLFileToLoad -- Save the XML path for later
+    g_currentMission.missionInfo.destructibleMapObjectsXMLLoad = nil -- Setting this to nil will prevent the destructible objects from loading at this point
 
-    local retVal = superFunc(self, ...)
-
-    -- g_currentMission.missionInfo.destructibleMapObjectsXMLLoad = self.destructibleMapObjectsXMLLoad
-    
-
-    return retVal
-end)
-
-PlaceableSystem.loadFromXMLFile = Utils.appendedFunction(PlaceableSystem.loadFromXMLFile, function(self, xmlFile, key)
-	Log:trace("PlaceableSystem.loadFromXMLFile")
-end)
-
-PlaceableSystem.loadMapData = Utils.appendedFunction(PlaceableSystem.loadMapData, function()
-	Log:trace("PlaceableSystem.loadMapData")
+    return superFunc(self, ...)
 end)
 
 Mission00.onFinishedPlaceables = Utils.appendedFunction(Mission00.onFinishedPlaceables, function(self)
-	Log:trace("Mission00.onFinishedPlaceables")
-
+    -- Now we can load the destuctable objects
     DestructibleMapObjectSystem.loadFromSavegameXML(g_currentMission.destructibleMapObjectSystem, self.destructibleMapObjectsXMLLoad)
 end)
-
-DestructibleMapObjectSystem.loadFromSavegameXML = Utils.overwrittenFunction(DestructibleMapObjectSystem.loadFromSavegameXML, function(self, superFunc, xmlPath)
-    Log:var("destructibleMapObjectSystem.loadFromSavegameXML [loadFromSavegameXML]", xmlPath)
-    Log:trace("loadFromSavegameXML")
-    return superFunc(self, xmlPath)
-end)
-
--- Event that is executed when the player chooses to start the mission (after the map has been loaded and before the game starts)
-function DestructiblePlaceableObjects:startMission()
-    local xmlFile = g_currentMission ~= nil and g_currentMission.missionInfo ~= nil and g_currentMission.missionInfo.destructibleMapObjectsXMLLoad
-    Log:var("g_currentMission.missionInfo.destructibleMapObjectsXMLLoad [startMission]", xmlFile)
-
-    --HACK: this is a bit of a hack, maybe we can find a better way to do this?
-    -- DestructibleMapObjectSystem.loadFromSavegameXML(g_currentMission.destructibleMapObjectSystem, self.destructibleMapObjectsXMLLoad)
-end
 
 g_globalMods = g_globalMods or {}
 g_globalMods.g_destructibleObjects = g_globalMods.g_destructibleObjects or {}
