@@ -22,6 +22,13 @@ Capacity: 9000L
 Price: $1
 
 Use any jackhammer capable of crushing rocks on the base game maps to destroy these objects.
+
+___________________________________________________________
+
+CHANGELOG:
+
+v1.0.1:
+- HOTFIX: Prevent warnings in the log ("Group with id 'n' does not exist in map") on maps with rock missions [#1]
 ]]></en>
 <de><![CDATA[
 Platzierbare, zerstörbare Objekte, die an beliebiger Stelle auf der Karte platziert und nach Belieben zertrümmert werden können. Sie funktionieren genauso wie die standardmäßig zerstörbaren Felsen auf den Karten des Basisspiels.
@@ -37,6 +44,13 @@ Kapazität: 9000L
 Preis: $1
 
 Verwenden Sie einen Presslufthammer, der in der Lage ist, Felsen auf den Karten des Basisspiels zu zerkleinern, um diese Objekte zu zerstören.
+
+___________________________________________________________
+
+CHANGELOG:
+
+v1.0.1:
+- HOTFIX: Verhinderung von Warnungen im Log ("Gruppe mit id 'n' existiert nicht in Karte") auf Karten mit Felsmissionen [#1]
 ]]></de>
 <fr><![CDATA[
 Objets destructibles à placer n'importe où sur votre carte, qui peuvent être brisés en morceaux à votre guise. Ils fonctionnent de la même manière que les rochers écrasables par défaut sur les cartes du jeu de base.
@@ -52,6 +66,7 @@ Capacité : 9000L
 Prix : 1
 
 Utilisez n'importe quel marteau-piqueur capable d'écraser des rochers sur les cartes du jeu de base pour détruire ces objets.
+- HOTFIX : Prévention des avertissements dans le journal ("Group with id 'n' does not exist in map") sur les cartes avec des missions rocheuses [#1].
 ]]></fr>
 
     </description>
