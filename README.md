@@ -1,4 +1,5 @@
-[MAIN IMAGE]
+<img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/8396eda6-79b1-4eb7-a149-380817670c2c" />
+
 
 Destructable Objects adds placeable destructible objects that can be placed anywhere on the map. These objects can be broken into pieces (e.g using the jackhammer), doing so will drop material (stones) to the ground. They work just as the default crushable rocks on the base game maps. 
 
@@ -74,7 +75,8 @@ In order for the script to properly recognize the actual crushable 3D object, th
 | dropFillTypeName| String | E.g. `WHEAT`. The filltype to drop. 
 | groupId | Integer | Should be `-1` |
 
-[EXAMPLE IMAGE]
+<img width="950" height="384" alt="image" src="https://github.com/user-attachments/assets/f8a09689-6418-4e1f-8852-73dfcc10f777" />
+
 
 Note: It is possible to have multiple visual crushable objects per "group" (as defined by the user attributes above), which means that you define a "group" by these attributes and then you can have e.g. ten different stones in that group, each dropping the same filltype and amount.
 
