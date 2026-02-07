@@ -75,11 +75,12 @@ In order for the script to properly recognize the actual crushable 3D object, th
 | dropFillTypeName| String | E.g. `WHEAT`. The filltype to drop. 
 | groupId | Integer | Should be `-1` |
 
-<img width="950" height="384" alt="image" src="https://github.com/user-attachments/assets/f8a09689-6418-4e1f-8852-73dfcc10f777" />
+<img width="70%" alt="image" src="https://github.com/user-attachments/assets/f8a09689-6418-4e1f-8852-73dfcc10f777" />
 
 
 Note: It is possible to have multiple visual crushable objects per "group" (as defined by the user attributes above), which means that you define a "group" by these attributes and then you can have e.g. ten different stones in that group, each dropping the same filltype and amount.
 
+---
 
 # About WZL Modding
 
