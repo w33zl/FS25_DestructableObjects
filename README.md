@@ -2,7 +2,7 @@
 
 Destructable Objects adds placeable destructible objects that can be placed anywhere on the map. These objects can be broken into pieces (e.g using the jackhammer), doing so will drop material (stones) to the ground. They work just as the default crushable rocks on the base game maps. 
 
-Using this specialization, additional types of destructible objects can be added to other mods, see below for instructions. These custom destructable objects can have different properties (e.g. harder materials taking longe time to crush) and can drop other materials than stone.
+Using this specialization, additional types of destructible objects can be added in other mods, see below for instructions. These custom destructable objects can have different properties (e.g. harder materials taking longer time to crush) and can drop other materials than stone.
 
 ---
 
