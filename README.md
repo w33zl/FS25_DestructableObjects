@@ -1,5 +1,4 @@
-<img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/8396eda6-79b1-4eb7-a149-380817670c2c" />
-
+![FS25_WZLModding_DestructibleObjects_Screenshots1](https://github.com/user-attachments/assets/64ce04ce-6727-4160-a468-250eff53193b)
 
 Destructable Objects adds placeable destructible objects that can be placed anywhere on the map. These objects can be broken into pieces (e.g using the jackhammer), doing so will drop material (stones) to the ground. They work just as the default crushable rocks on the base game maps. 
 
