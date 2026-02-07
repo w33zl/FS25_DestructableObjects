@@ -30,6 +30,7 @@ The you need a placeable type that supports this new `placeableDestructibleObjec
 ```
 
 Or, you can define your own:
+```xml
 <placeableTypes>
     <type name="YOUR_CUSTOM_TYPE" parent="simplePlaceable" filename="$dataS/scripts/placeables/Placeable.lua">
         <specialization name="placeableDestructibleObject"/>
@@ -38,7 +39,7 @@ Or, you can define your own:
 </placeableTypes>
 ```
 
-Finally, add Destructiable Objects as a dependency (this ensures the mod is available and active to avoid errors):
+Finally, add _Destructiable Objects_ as a dependency (this ensures the mod is available and active to avoid errors):
 ```xml
 <dependencies>
     <dependency>FS25_DestructableObjects</dependency>
